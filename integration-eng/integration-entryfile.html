@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>City Hive Integrations</title>
+    <style>
+      .path-sep {
+        width: 1px;
+        height: 16px;   
+        background: black;
+        transform: rotate(15deg);
+        display: inline-block;
+        margin-right: 1px;
+        margin-left: 2px;
+      }
+      .path {
+        font-size: 19px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+      <div>
+        <p>The csv file is available in the following location in S3:</p>
+        <div id="bucket-key">Bucket:</div><div id="bucket-value">cityhive-stores</div>
+        <div id="region-key">Region:</div><div id="region-value" data-region="us-west-2">US West (Oregon)</div>
+        <div id="object-key">Object Path:</div><div id="object-value"><span class="path-sep"></span><span class="path"><span class="path">_utils</span><span class="path-sep"></span><span class="path">inventory_export_sample_exercise.csv</span></div>
+      </div>
+  </body>
+</html>
