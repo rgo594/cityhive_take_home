@@ -6,7 +6,7 @@ import re
 from io import StringIO
 from typing import List, Dict
 from datetime import datetime
-
+from sys import argv, exit
 
 def calculate_price_increase(price: float, margin: float) -> float:
     if margin > 0.3:
@@ -28,7 +28,7 @@ def extract_fields_from_row(row: List) -> Dict:
         "item": row[1],
         "cost": float(row[3]),
         "price": float(row[4]),
-        "quantity": row[5],
+        "quantity": row[191],
         "vendor_number": row[12],
         "department": row[13],
         "item_extra": row[36],
@@ -103,36 +103,108 @@ def fetch_item_num_duplicates(lines: List[Dict]) -> set:
 
     return item_duplicates
 
+def generate_csv(lines : List, file_path):
+    for row in lines:
+        if "properties" in row and isinstance(row["properties"], dict):
+            row["properties"] = json.dumps(row["properties"])
+        if "tags" in row and isinstance(row["tags"], list):
+            row["tags"] = ",".join(row["tags"])
 
-def write_to_csv():
+    fieldnames = sorted({key for row in lines for key in row.keys()})
+
+    with open(file_path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(lines)
+
+def upload(lines : List):
+    url = "http://localhost:3000/inventory_uploads.json"
+
+    payload = {
+        "inventory_units": lines
+    }
+
+    response = requests.post(url, json=payload)
+
+    print(response.status_code)
+    print(response.json())
+
+
+def list_uploads():
+    url = "http://localhost:3000/inventory_uploads.json"
+
+    response = requests.get(url)
+
+    print(response.json())
+
+def parse_lines():
     bucket = "cityhive-stores"
     key = "_utils/inventory_export_sample_exercise.csv"
     url = f"https://{bucket}.s3.amazonaws.com/{key}"
+
 
     response = requests.get(url)
     if response.status_code != 200:
         raise Exception("Failed to fetch S3 file")
 
-    working_directory = os.path.dirname(os.path.abspath(__file__))
-    local_file_path = f"{working_directory}/inventory_export_sample_exercise.json"
-
     csv_file = StringIO(response.text)
     reader = csv.reader(csv_file, delimiter='|')
 
-    lines = [{"row": row, "line_num": reader.line_num} for row in reader]
+    input_lines = [{"row": row, "line_num": reader.line_num} for row in reader]
 
-    with open(local_file_path, 'w+') as out_file:
-        item_num_duplicates = fetch_item_num_duplicates(lines)
+    # with open(local_file_path, 'w+') as out_file:
 
-        for line in lines:
-            row = line["row"]
-            line_num = line["line_num"]
+    item_num_duplicates = fetch_item_num_duplicates(input_lines)
 
-            if skip_line(row, line_num):
-                continue
+    output_lines : List = []
+    for line in input_lines:
+        row = line["row"]
+        line_num = line["line_num"]
 
-            processed = process_line(row, item_num_duplicates)
-            if processed:
-                out_file.write(json.dumps(processed) + "\n")
+        if skip_line(row, line_num):
+            continue
 
-write_to_csv()
+        processed = process_line(row, item_num_duplicates)
+        if processed:
+            output_lines.append(processed)
+
+    return output_lines
+
+
+
+if(argv[1] == "generate_csv"):
+    working_directory = os.path.dirname(os.path.abspath(__file__))
+    local_file_path = f"{working_directory}/inventory_export_sample_exercise.csv"
+
+    output_lines = parse_lines()
+    generate_csv(lines=output_lines, file_path=local_file_path)
+
+elif(argv[1] == "upload"):
+    output_lines = parse_lines()
+    upload(lines=output_lines)
+
+elif(argv[1] == "list_uploads"):
+    list_uploads()
+
+
+        # row = line["row"]
+        # colnames = [
+        #     "upc_raw"
+        #     ,"item"
+        #     ,"cost"
+        #     ,"price"
+        #     ,"quantity"
+        #     ,"vendor_number"
+        #     ,"department"
+        #     ,"item_extra"
+        #     ,"last_sold"
+        #     ,"row_id"
+        #     ,"description"
+        # ]
+        # for i in range(len(row)):
+        #     header = row[i].lower()
+        #     if "cost" in header:
+        #         print(i, " ", header)
+        # # print(row)
+        # # print(row.index(row[-1]))
+        # exit()
