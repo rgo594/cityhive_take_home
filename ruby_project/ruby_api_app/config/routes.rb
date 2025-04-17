@@ -12,9 +12,3 @@ Rails.application.routes.draw do
   # root "posts#index"
 end
 
-# Rails.application.routes.draw do
-#   get "up" => "rails/health#show", as: :rails_health_check
-
-#   post "/inventory_uploads", to: "inventory_uploads#create"
-#   get  "/inventory_uploads", to: "inventory_uploads#index"
-# end

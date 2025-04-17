@@ -9,10 +9,6 @@ from sys import argv, exit
 from bs4 import BeautifulSoup
 import requests
 
-# html_url = "https://bitbucket.org/cityhive/jobs/src/master/integration-eng/integration-entryfile.html"
-# resp = requests.get(html_url)
-# soup = BeautifulSoup(resp.text, "html.parser")
-
 def calculate_price_increase(price: float, margin: float) -> float:
     if margin > 0.3:
         new_price = price * 1.07
@@ -25,7 +21,6 @@ def determine_upc_or_internal_id(upc: str, row_id: str):
     if len(upc) > 5 and not re.fullmatch(r"\d+", upc):
         return None, f"biz_id_{row_id}"
     return upc, None
-
 
 def extract_fields_from_row(row: List) -> Dict:
     return {
@@ -196,8 +191,6 @@ elif(argv[1] == "upload"):
 
 elif(argv[1] == "list_uploads"):
     list_uploads()
-
-
 
 # for i in range(len(row)):
 #     header = row[i].lower()
