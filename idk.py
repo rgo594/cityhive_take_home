@@ -4,7 +4,7 @@ import json
 import os
 import re
 from io import StringIO
-from typing import List, Dict
+from typing import List, Dict, Tuple, Optional
 from datetime import datetime
 
 
@@ -16,13 +16,13 @@ def calculate_price_increase(price: float, margin: float) -> float:
     return round(new_price, 2)
 
 
-def determine_upc_or_internal_id(upc: str, row_id: str):
+def determine_upc_or_internal_id(upc: str, row_id: str) -> Tuple[Optional[str], Optional[str]]:
     if len(upc) > 5 and not re.fullmatch(r"\d+", upc):
         return None, f"biz_id_{row_id}"
     return upc, None
 
 
-def extract_fields_from_row(row: List) -> Dict:
+def extract_fields_from_row(row: List[str]) -> Dict:
     return {
         "upc_raw": row[0],
         "item": row[1],
@@ -38,7 +38,7 @@ def extract_fields_from_row(row: List) -> Dict:
     }
 
 
-def process_line(row: List, item_num_duplicates: set) -> Dict:
+def process_line(row: List[str], item_num_duplicates: set) -> Optional[Dict]:
     try:
         fields = extract_fields_from_row(row)
         if fields["last_sold"] == "NULL" or not fields["last_sold"]:
@@ -76,11 +76,11 @@ def process_line(row: List, item_num_duplicates: set) -> Dict:
         }
 
     except Exception as e:
-        print(row)
+        print("Error processing row:", row)
         raise
 
 
-def skip_line(row: List, line_num: int) -> bool:
+def skip_line(row: List[str], line_num: int) -> bool:
     return len(row) <= 10 or line_num in {0, 1, 2}
 
 
@@ -114,7 +114,7 @@ def write_to_csv():
         raise Exception("Failed to fetch S3 file")
 
     working_directory = os.path.dirname(os.path.abspath(__file__))
-    local_file_path = f"{working_directory}/inventory_export_sample_exercise.json"
+    local_file_path = f"{working_directory}/inventory_export_sample_exercise.csv"
 
     csv_file = StringIO(response.text)
     reader = csv.reader(csv_file, delimiter='|')
@@ -135,4 +135,6 @@ def write_to_csv():
             if processed:
                 out_file.write(json.dumps(processed) + "\n")
 
-write_to_csv()
+
+if __name__ == "__main__":
+    write_to_csv()
