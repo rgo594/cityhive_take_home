@@ -1,5 +1,4 @@
 import csv
-import requests
 import json
 import os
 import re
@@ -7,6 +6,12 @@ from io import StringIO
 from typing import List, Dict
 from datetime import datetime
 from sys import argv, exit
+from bs4 import BeautifulSoup
+import requests
+
+# html_url = "https://bitbucket.org/cityhive/jobs/src/master/integration-eng/integration-entryfile.html"
+# resp = requests.get(html_url)
+# soup = BeautifulSoup(resp.text, "html.parser")
 
 def calculate_price_increase(price: float, margin: float) -> float:
     if margin > 0.3:
@@ -137,22 +142,28 @@ def list_uploads():
 
     print(response.json())
 
-def parse_lines():
-    bucket = "cityhive-stores"
-    key = "_utils/inventory_export_sample_exercise.csv"
-    url = f"https://{bucket}.s3.amazonaws.com/{key}"
+def fetch_s3_csv(working_directory : str):
+    with open(f"{working_directory}/integration-entryfile.html", "r") as f:
+        soup = BeautifulSoup(f.read(), "html.parser")
 
+    bucket = soup.find(id="bucket-value").text.strip()
+    key_parts = soup.find(id="object-value").find(class_="path").find_all(class_="path")
+    object_key = "/".join([p.text.strip() for p in key_parts])
+    s3_url = f"https://{bucket}.s3.amazonaws.com/{object_key}"
 
-    response = requests.get(url)
+    response = requests.get(s3_url)
     if response.status_code != 200:
         raise Exception("Failed to fetch S3 file")
+    
+    return response
+
+def parse_lines(working_directory : str) -> List:
+    response = fetch_s3_csv(working_directory=working_directory)
 
     csv_file = StringIO(response.text)
     reader = csv.reader(csv_file, delimiter='|')
 
     input_lines = [{"row": row, "line_num": reader.line_num} for row in reader]
-
-    # with open(local_file_path, 'w+') as out_file:
 
     item_num_duplicates = fetch_item_num_duplicates(input_lines)
 
@@ -171,40 +182,27 @@ def parse_lines():
     return output_lines
 
 
+working_directory = os.path.dirname(os.path.abspath(__file__))
 
 if(argv[1] == "generate_csv"):
-    working_directory = os.path.dirname(os.path.abspath(__file__))
     local_file_path = f"{working_directory}/inventory_export_sample_exercise.csv"
 
-    output_lines = parse_lines()
+    output_lines = parse_lines(working_directory=working_directory)
     generate_csv(lines=output_lines, file_path=local_file_path)
 
 elif(argv[1] == "upload"):
-    output_lines = parse_lines()
+    output_lines = parse_lines(working_directory=working_directory)
     upload(lines=output_lines)
 
 elif(argv[1] == "list_uploads"):
     list_uploads()
 
 
-        # row = line["row"]
-        # colnames = [
-        #     "upc_raw"
-        #     ,"item"
-        #     ,"cost"
-        #     ,"price"
-        #     ,"quantity"
-        #     ,"vendor_number"
-        #     ,"department"
-        #     ,"item_extra"
-        #     ,"last_sold"
-        #     ,"row_id"
-        #     ,"description"
-        # ]
-        # for i in range(len(row)):
-        #     header = row[i].lower()
-        #     if "cost" in header:
-        #         print(i, " ", header)
-        # # print(row)
-        # # print(row.index(row[-1]))
-        # exit()
+
+# for i in range(len(row)):
+#     header = row[i].lower()
+#     if "cost" in header:
+#         print(i, " ", header)
+# # print(row)
+# # print(row.index(row[-1]))
+# exit()
