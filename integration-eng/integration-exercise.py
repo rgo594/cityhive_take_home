@@ -4,7 +4,7 @@ import os
 import re
 from io import StringIO
 from typing import List, Dict
-from datetime import datetime
+from datetime import datetime, timedelta
 from sys import argv, exit
 from bs4 import BeautifulSoup
 import requests
@@ -45,7 +45,11 @@ def process_line(row: List, item_num_duplicates: set) -> Dict:
             return None
 
         last_sold_dt = datetime.strptime(fields["last_sold"], "%Y-%m-%d %H:%M:%S.%f")
-        if not (datetime(2020, 1, 1) <= last_sold_dt < datetime(2021, 1, 1)):
+        #datetime.now().date.timedelta(years=5)
+        five_years_ago = (datetime.now() - timedelta(days=1825))
+
+        #if not (datetime(2020, 1, 1) <= last_sold_dt < datetime(2021, 1, 1)):
+        if not (five_years_ago >= last_sold_dt):
             return None
 
         upc, internal_id = determine_upc_or_internal_id(fields["upc_raw"], fields["row_id"])
@@ -124,8 +128,24 @@ def upload(lines : List):
         "inventory_units": lines
     }
 
-    response = requests.post(url, json=payload)
+    for i in range(len(lines)):
+        batch = []
+        batch.append(lines[i])
 
+        if (i + 1) % 100 == 0:
+            print(i)
+            payload = {
+                "inventory_units": lines
+            }
+            response = requests.post(url, json=payload)
+            batch = []
+        elif i + 1 == len(lines):
+            print(i)
+            payload = {
+                "inventory_units": lines
+            }
+            response = requests.post(url, json=payload)
+            
     print(response.status_code)
     print(response.json())
 

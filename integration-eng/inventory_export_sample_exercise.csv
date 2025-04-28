@@ -1,492 +1,860 @@
 department,internal_id,last_sold,name,price,properties,quantity,tags,upc
+WINE,,2019-06-27 00:00:00,Jack London Cab Sav Dom 750ml,24.6,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,010986000024
+WINE,,2019-10-01 00:00:00,Kenwood Cab Sav 750ml Domestic,17.11,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,010986002226
 WINE,,2020-02-09 00:00:00,Kenwood Pinot Noir 750ml Domestic,17.11,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,010986002813
 WINE,,2020-03-18 00:00:00,Kenwood Sav Blanc 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,010986006026
 WINE,,2020-04-25 00:00:00,Kenwood Chard 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,010986007634
+LIQUOR,,2019-05-01 00:00:00,Martini $ Rossi Rosso 375ml Liqueur,5.44,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,011034410079
+LIQUOR,,2019-04-29 00:00:00,Martini & Rossi Extra Dry 375ml Liqueur,5.44,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,011034420078
+WINE,,2019-05-01 00:00:00,Martini & Rossi Prosecco Spark 750ml Import,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,011034501005
+WINE,,2019-05-01 00:00:00,Martini & Rossi Rose Sparkling 750ml Import,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,011034503825
 WINE,,2020-03-24 00:00:00,Macon Villages Joseph Drouhin,16.04,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,012086312014
 WINE,,2020-02-17 00:00:00,Gentlemans Collection Red Blen 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,012354001466
 WINE,,2020-04-24 00:00:00,Shiraz 19 Crimes,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,012354001848
 WINE,,2020-04-11 00:00:00,Dr. Hans VonMuller Riesling Au 750ml Domestic,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,015643241321
-WINE,,2020-05-06 00:00:00,Rose with Grapefruit 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,015643422850
+WINE,,2019-11-27 00:00:00,Dr. Hans VonMuller Riesling 750ml Import,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,015643241451
+WINE,,2019-06-25 00:00:00,Lavendette Rose 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,015643422669
+WINE,,2019-07-16 00:00:00,Fascino Prosecco Sparkling 750ml Import,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,015643491740
+WINE,,2019-08-09 00:00:00,Sav Blanc Little Sheep 750ml,11.76,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,015643496721
+WINE,,2019-04-20 00:00:00,The Pinot Pinot Noir 750ml Domestic,14.97,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,015643554360
 WINE,,2020-04-10 00:00:00,Rose with Blood Orange 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,015643559792
 WINE,,2020-04-22 00:00:00,P Noir Oregon terrebonne,14.97,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,015643566950
-WINE,,2020-05-19 00:00:00,Rose Little Sheep,11.76,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,015643607554
-LIQUOR,,2020-05-16 00:00:00,Rose's Sweetened Lime Juice 12 oz Mixer,4.35,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,01660433
-LIQUOR,,2020-05-02 00:00:00,Rose's Grenadine 12 oz Mixer,4.35,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,01660530
-BEER,,2020-05-09 00:00:00,Platinum 12pk cans Bud Light,16.99,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,018200209949
-BEER,,2020-05-19 00:00:00,natty single natty single,2.14,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,018200250132
-BEER,,2020-05-08 00:00:00,Bud Light Seltzer 25oz Bud Light,3.21,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,"duplicate_sku,high_margin",018200260636
-BEER,,2020-05-08 00:00:00,Bud Light Seltzer 25oz Bud Light,3.21,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,"duplicate_sku,high_margin",018200260636
-Soda,,2020-05-19 00:00:00,Pink Lemonade Minute Maid,2.03,"{""department"": ""Soda"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,025000058868
+WINE,,2019-04-23 00:00:00,Fluer de Lyeth Red 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,017151913332
+WINE,,2019-11-01 00:00:00,Conundrum Red Blend 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,017224760122
+BEER,,2019-04-17 00:00:00,Budweiser 6pk 12oz Domestic,8.71,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,01801624
+BEER,,2019-04-17 00:00:00,Budweiser 6pk 16oz Domestic,10.13,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,01801828
+BEER,,2019-04-17 00:00:00,Bud Light 6pk 12oz Domestic,8.55,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,01810622
+BEER,,2019-04-17 00:00:00,Busch Single 40oz Domestic,3.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,01814628
+BEER,,2019-04-16 00:00:00,Bud Light Single 40oz Domestic,3.82,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,01816024
+BEER,,2019-10-27 00:00:00,Bud Light single,1.6,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,01816927
+LIQUOR,,2019-07-15 00:00:00,Purus Organic Wheat 750ml Vodka,17.43,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,018200000904
+BEER,,2019-12-07 00:00:00,O'Doul's 6pk 12oz Domestic,8.38,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200007842
+BEER,,2019-08-09 00:00:00,Michlob ultra 12pk Michlob,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,018200008917
+BEER,,2019-09-13 00:00:00,Michelob Light 6pk 12oz Domestic,9.47,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200009563
+BEER,,2019-08-04 00:00:00,O'Doul's Amber 6pk 12oz Domestic,8.38,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200029929
+BEER,,2019-09-16 00:00:00,O'Doul's Amber 12pk 12oz Domestic,14.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200039829
+BEER,,2019-08-10 00:00:00,Michelob Ultra 6pk 12oz Domestic,9.47,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,018200059896
+BEER,,2019-12-10 00:00:00,Michelob Ultra 12pk 12oz Domestic,16.34,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200069918
+BEER,,2019-04-16 00:00:00,Budweiser 30pk 12oz Domestic,28.87,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,018200110306
+BEER,,2019-04-17 00:00:00,Budweiser 12pk 12oz Domestic,14.81,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,018200110474
+BEER,,2019-04-17 00:00:00,Budweiser 18pk 12oz Domestic,19.5,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,018200112188
+BEER,,2019-10-04 00:00:00,Red Bridge 6pk 12oz Craft,11.76,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,018200119859
+BEER,,2019-08-10 00:00:00,Landshark 6pk 12oz Craft,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200129827
+BEER,,2019-07-29 00:00:00,Michelob Ultra Lime Cactus 6pk 12oz Domestic,9.47,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200129896
+BEER,,2019-04-16 00:00:00,Budweiser Jim Beam 6pk 12oz Domestic,9.8,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,018200200694
+BEER,,2019-08-08 00:00:00,Michelob Ultra Pure Gold 6pk 12oz Domestic,9.8,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200200823
+BEER,,2019-04-17 00:00:00,Bud Light Single 24oz Domestic,3.21,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,018200250019
+BEER,,2019-07-08 00:00:00,Natural Ice Single 25oz Domestic,2.62,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,018200250088
+BEER,,2019-04-16 00:00:00,Bud Light Lime a Rita Single 24oz Domestic,3.21,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,018200250149
+BEER,,2019-04-17 00:00:00,Bud Light 30pk 12oz Domestic,28.87,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,018200530302
+BEER,,2019-04-17 00:00:00,Bud Light 12pk 12oz Domestic,14.81,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,018200530470
+BEER,,2019-04-17 00:00:00,Bud Light 18pk 12oz Domestic,19.5,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,018200532184
+BEER,,2019-11-27 00:00:00,O'Doul's 12pk 12oz Domestic,14.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200790478
+BEER,,2019-11-29 00:00:00,Michelob Ultra 18pk 12oz Domestic,20.7,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,018200967214
+WINE,,2019-04-17 00:00:00,Barefoot Chard 1.5L Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,018341151053
+BEER,,2019-04-16 00:00:00,Bud Light Single 16oz Domestic,2.14,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,01853025
+BEER,,2019-04-19 00:00:00,Pabst Blue Ribbon 6pk 16oz Domestic,8.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,02207412
+WINE,,2019-04-19 00:00:00,Tomaiolo Pinot Grigio 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,023035314928
+WINE,,2019-07-20 00:00:00,Cottage Pinot Grigio 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,023035324866
+MISC,,2019-03-30 00:00:00,Twang Margarita Salt,2.71,"{""department"": ""MISC"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,023604304008
 TOBACCO,,2020-01-25 00:00:00,L&M 50c OFF,9.4,"{""department"": ""TOBACCO"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,"duplicate_sku,low_margin",028200179043
 TOBACCO,,2020-01-25 00:00:00,L&M 50c OFF,9.4,"{""department"": ""TOBACCO"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,"duplicate_sku,low_margin",028200179043
-WINE,,2020-05-02 00:00:00,Josh North Coast Cab Sav 750ml Domestic,18.52,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,031259000046
-WINE,,2020-05-12 00:00:00,Josh Family Cab Sav 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259000763
-WINE,,2020-05-16 00:00:00,Josh Cellars Rose 750ml Domestic,14.16,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,031259001043
 WINE,,2020-03-19 00:00:00,Josh North Coast Chard,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,031259003030
-WINE,,2020-05-19 00:00:00,Josh Prosecco Sparkling 750ml Import,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259003726
 WINE,,2020-03-15 00:00:00,Cab 375ml Josh,8.55,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,031259004204
 WINE,,2020-01-27 00:00:00,Chard Josh,7.48,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,031259004211
-WINE,,2020-05-16 00:00:00,Josh Bour Barrel Cab Sav,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,031259004327
+WINE,,2019-04-22 00:00:00,Yellow Tail Chard 750ml Import,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259008929
+WINE,,2019-04-15 00:00:00,Yellow Tail Shiraz 750ml Import,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259008943
+WINE,,2019-04-21 00:00:00,Yellow Tail Merlot 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259009230
+WINE,,2019-04-20 00:00:00,Yellow Tail Cab Sav 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259009469
+WINE,,2019-04-17 00:00:00,Yellow Tail Pinot Grigio 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259009728
+WINE,,2019-04-16 00:00:00,Yellow Tail Pinot Noir 750ml Import,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259018492
+WINE,,2019-05-15 00:00:00,Hob Nob Chard 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259027142
 WINE,,2020-03-16 00:00:00,Hob Nob Cab Sav 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259027159
 WINE,,2020-02-03 00:00:00,Hob Nob Merlot 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259027166
-WINE,,2020-05-19 00:00:00,Pinot Noir HobNob,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,031259027173
+WINE,,2019-04-19 00:00:00,Yellow Tail Pinot Noir 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259032658
+WINE,,2019-04-19 00:00:00,Yellow Tail Sav Blanc 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259032665
 WINE,,2020-02-21 00:00:00,Hob Nob Red Blend 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259045306
-WINE,,2020-05-14 00:00:00,Josh Pinot Noir 750ml Domestic,17.11,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259046952
-WINE,,2020-05-17 00:00:00,Josh Cellar Sav Blanc 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,031259046976
-MISC,,2020-05-02 00:00:00,Collins Cherries with Stems 16oz,7.62,"{""department"": ""MISC"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,031439001641
-Soda,,2020-05-15 00:00:00,Snickers Candy,1.18,"{""department"": ""Soda"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,040000424314
+WINE,,2019-10-29 00:00:00,Freixenet Cordon Negro Brut Sparkling 750ml Import,13.07,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,033293003007
+WINE,,2019-10-26 00:00:00,Freixenet Corfon Negro Brut Sparkling 375ml Import,8.71,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,033293003205
+WINE,,2019-09-28 00:00:00,Freixenet Ice Cuvee Sparkling 750ml Import,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,033293006312
+BEER,,2019-08-07 00:00:00,Corona Premier 6pk 12oz Import,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,033544950418
+BEER,,2019-08-07 00:00:00,Corona Premier 12pk 12oz Import,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,033544950449
+BEER,,2019-08-08 00:00:00,Miller High Life 18pk 12oz Domestic,17.11,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,034100012564
+BEER,,2019-08-03 00:00:00,Miller High Life 6pk 12oz Domestic,8.71,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,034100015053
+BEER,,2019-11-13 00:00:00,Miller 64 6pk 12oz Domestic,8.71,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,034100155056
+BEER,,2019-12-08 00:00:00,Miller Genuine Draft 6pk 12oz Domestic,8.71,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,034100175054
+BEER,,2019-08-07 00:00:00,Miller Lite 9pk 16oz Domestic,14.7,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,034100570231
+BEER,,2019-08-09 00:00:00,Miller Lite 18pk 12oz Domestic,19.5,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,034100573409
+BEER,,2019-08-08 00:00:00,Miller Lite 30pk 12oz Domestic,28.87,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,034100573416
+BEER,,2019-08-09 00:00:00,Miller Lite 12pk 12oz Domestic,14.81,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,034100576363
+BEER,,2019-08-09 00:00:00,Miller Lite 6pk 12oz Domestic,8.71,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,03435418
+BEER,,2019-08-10 00:00:00,Miller Lite Single 24oz Domestic,3.21,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,03435515
+Soda,,2019-12-10 00:00:00,Pineapple juice Dole,3.73,"{""department"": ""Soda"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,038900008086
 LIQUOR,,2020-03-27 00:00:00,Four Roses Single Barrel 750ml Whiskey,45.77,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,040063400027
 LIQUOR,,2020-04-23 00:00:00,Four Roses Small Batch 750ml Whiskey,33.78,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,040063400317
-LIQUOR,,2020-05-06 00:00:00,Four Roses Bourdon 750ml Whiskey,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,040063400409
-BEER,,2020-05-19 00:00:00,Mighty Squirrel Cloud Candy 4 x 16oz,15.25,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,040232502101
-BEER,,2020-05-18 00:00:00,Mighty Squirel Mango Lassi 4 x 16oz,17.43,"{""department"": ""BEER"", ""vendor"": ""Atlantic"", ""description"": ""NULL""}",NULL,low_margin,040232502132
-WINE,,2020-05-16 00:00:00,Pinot Noir La Crema,25.06,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,049331002307
-LIQUOR,,2020-05-06 00:00:00,Disaronno 750ml Disaronno,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,050037014501
+BEER,,2019-12-24 00:00:00,Sour Face Mighty Squirrel,14.38,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,040232502095
+BEER,,2019-12-10 00:00:00,Harpoon IPA 12pk 12oz Craft,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,041827000743
+BEER,,2019-12-08 00:00:00,Harpoon IPA 6pk 12oz Craft,11.22,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,041827000767
+BEER,,2019-12-19 00:00:00,Harpoon Hop-O-Rama 12pk 12oz Craft,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,041827002945
+BEER,,2019-04-19 00:00:00,UFO White 6pk 12oz Craft,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,041827900364
+BEER,,2019-04-19 00:00:00,UFO Seasonal Big Wit 6pk 12oz Craft,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,041827900463
+TOBACCO,,2019-04-15 00:00:00,American Spirit All Sku,12.3,"{""department"": ""TOBACCO"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,"duplicate_sku,low_margin",047995855093
+TOBACCO,,2019-04-15 00:00:00,American Spirit All Sku,12.3,"{""department"": ""TOBACCO"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,"duplicate_sku,low_margin",047995855093
+TOBACCO,,2019-04-15 00:00:00,American Spirit All Sku,12.3,"{""department"": ""TOBACCO"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,"duplicate_sku,low_margin",047995855093
+LIQUOR,,2019-08-10 00:00:00,JP Wiser's Rye 750ml Whiskey,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,048415520188
+Soda,,2019-04-20 00:00:00,Coke 2lt,2.41,"{""department"": ""Soda"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,049000050103
+WINE,,2019-09-20 00:00:00,La Crema Chard 750ml La Crema,21.79,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,049331002222
 LIQUOR,,2020-03-28 00:00:00,Disaronno 375ml Disaronna,18.18,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,050037014518
+BEER,,2019-12-07 00:00:00,Peach Smoovy mighty Squirrel,18.52,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,051497052676
 BEER,,2020-03-21 00:00:00,Velvet Moon Mighty Sqi,14.38,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,051497052683
-BEER,,2020-04-28 00:00:00,Guavaland Mighty Sqir,19.61,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,051497123390
-BEER,,2020-05-19 00:00:00,Mighty Squirrel Dear Bubba 4 x 16oz,15.25,"{""department"": ""BEER"", ""vendor"": ""Atlantic"", ""description"": ""NULL""}",NULL,low_margin,051497123420
-BEER,,2020-05-18 00:00:00,Coors Light 12 x 12oz Can,14.81,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,071990000486
-BEER,,2020-05-17 00:00:00,Blue Moon Belgian 6 x 12oz Glass,10.89,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,071990095116
-BEER,,2020-05-15 00:00:00,Coors Light 6 x 12oz Glass,8.71,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,071990300050
-BEER,,2020-05-18 00:00:00,Coors Light 30 x 12oz Can,28.87,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,071990300302
-BEER,,2020-05-19 00:00:00,Coors Light Single 24oz,3.21,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,high_margin,071990300654
-BEER,,2020-05-17 00:00:00,Coors Light 12 x 12oz Glass,14.81,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,071990300692
-BEER,,2020-05-19 00:00:00,Coors Light 6 x 16oz Can,10.13,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,071990320003
-TOBACCO,,2020-05-10 00:00:00,Quorum Quorum,4.01,"{""department"": ""TOBACCO"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,076622775305
-BEER,,2020-05-13 00:00:00,Steel Reserve Single 24oz,2.14,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,high_margin,078250003287
-LIQUOR,,2020-05-08 00:00:00,Buffalo Trace Buffalo Trace,34.87,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,080244009236
+BEER,,2019-12-31 00:00:00,Johnny Hammer Mighty Squir,19.61,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,051497052706
+BEER,,2019-05-09 00:00:00,Rolling Rock 18pk 12oz Domestic,13.9,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,071439344188
+BEER,,2019-04-29 00:00:00,Rolling Rock 18pk 12oz Domestic,13.9,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,071439451183
+BEER,,2019-06-15 00:00:00,Coors Golden Banquet 6pk 12oz Domestic,9.94,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,071990170288
+BEER,,2019-08-09 00:00:00,Coors Light 18 x 12oz Can,19.5,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,071990300173
+BEER,,2019-08-08 00:00:00,Coors Light 9pk 16oz Domestic,14.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,071990301040
+BEER,,2019-12-11 00:00:00,Narragansett Lager 6pk 16oz Domestic,7.84,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,072130550014
+BEER,,2019-08-03 00:00:00,Dos Equis Amber 6pk 12oz Import,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,072311630115
+BEER,,2019-08-03 00:00:00,Dos Equis 6pk 12oz Import,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,072311630122
+BEER,,2019-05-24 00:00:00,Heineken 6pk 12oz Import,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,072890000118
+BEER,,2019-05-26 00:00:00,Heineken 12pk 12oz Import,18.08,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,072890000200
+BEER,,2019-12-11 00:00:00,Heinken Single 24oz Import,3.21,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,072890001191
+BEER,,2019-12-05 00:00:00,Heineken Light 6pk 12oz Import,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,072890001580
+BEER,,2019-05-26 00:00:00,Heineken 0.0 6pk 12oz Import,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,072890006219
+LIQUOR,,2019-07-13 00:00:00,Daily's Sweet & Sour 750ml Mixer,9.8,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,074806000267
+MISC,,2019-07-11 00:00:00,Giuliano Dirty Martini 5oz Mixer,4.13,"{""department"": ""MISC"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,076479600058
+LIQUOR,,2019-03-31 00:00:00,Glenlivet 15 Years 750ml Scotch,81.74,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432100783
+BEER,,2019-08-08 00:00:00,Seagram's Escape Jamican Me 4p 12oz Malt,5.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432103463
 LIQUOR,,2020-01-26 00:00:00,Jameson Black Barrell Whiskey 750ml,40.32,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432107263
 LIQUOR,,2020-01-10 00:00:00,Glenlivet Founders 750ml Scotch,43.59,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432109755
 LIQUOR,,2020-03-25 00:00:00,Jameson Caskmates Stout Whiskey 750ml,37.05,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432109922
+LIQUOR,,2019-07-17 00:00:00,Jameson Caskmates Irish Whiskey 200ml,12.83,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080432110119
 LIQUOR,,2020-03-21 00:00:00,Jameson Caskmates Whiskey 750ml,37.05,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432112199
-LIQUOR,,2020-05-15 00:00:00,Chivas Regal 12yr Chivas Regal,40.32,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,080432400395
+LIQUOR,,2019-04-09 00:00:00,Jameson IPA 50ml Irish Whiskey,3.75,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080432113141
+LIQUOR,,2019-12-21 00:00:00,Chivas Regal 50ml Scotch,4.35,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432400340
 LIQUOR,,2020-03-23 00:00:00,Chivas Regal 18yr,92.64,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,080432400487
-LIQUOR,,2020-05-13 00:00:00,Glenlivet 12 Years 750ml Scotch,51.22,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432400630
-LIQUOR,,2020-05-08 00:00:00,Jameson Irish Whiskey 200ml,11.98,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432500125
-LIQUOR,,2020-05-15 00:00:00,Jameson Irish Whiskey 375ml,20.32,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080432500149
-LIQUOR,,2020-05-02 00:00:00,Jameson Irish Whiskey 1.75L,46.86,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432500187
+LIQUOR,,2019-05-19 00:00:00,Jameson Irish Whiskey 50ml Irish Whiskey,3.82,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432500101
+LIQUOR,,2019-05-06 00:00:00,Jameson Irish Whiskey 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432500170
 LIQUOR,,2020-04-15 00:00:00,12yr redbreast Red breast,59.94,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,080432586174
+BEER,,2019-07-04 00:00:00,Seagram's Escapes Wild Ber 4pk 12oz Malt,5.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432802663
+BEER,,2019-07-13 00:00:00,Seagram's Escapes Black Cher 4 12oz Malt,5.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080432802885
 LIQUOR,,2020-03-23 00:00:00,Grey Goose Cherry Noir Vodka 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480002831
+LIQUOR,,2019-08-22 00:00:00,Grey Goose Melon Vodka 375ml,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480004903
 LIQUOR,,2020-04-11 00:00:00,Dewars 15yr Scotch,42.79,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,080480005221
-LIQUOR,,2020-05-05 00:00:00,Cazadores Tequila Cazadores,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,080480172022
-LIQUOR,,2020-05-01 00:00:00,Dewars white Label Scotch 375ml,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480230036
-LIQUOR,,2020-05-19 00:00:00,Dewars White Label Scotch 200ml,9.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080480230050
+LIQUOR,,2019-12-13 00:00:00,st germain 375ml st germain,21.39,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,080480006662
+LIQUOR,,2019-10-03 00:00:00,Havana Club Blanco 50ml Rum,1.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080480006907
+LIQUOR,,2019-11-26 00:00:00,Havana Club Clasico Rum,1.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080480006921
+LIQUOR,,2019-06-05 00:00:00,Dewars White Label Scotch 1.75L,42.5,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480230005
 LIQUOR,,2020-02-07 00:00:00,Grey Goose Vodka 1.75L,65.39,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480280000
-LIQUOR,,2020-05-14 00:00:00,Grey Goose Vodka 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480280024
-LIQUOR,,2020-05-04 00:00:00,Grey Goose Vodka Vodka 375ml,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480280031
-LIQUOR,,2020-05-17 00:00:00,Grey Goose 50ml Vodka,4.27,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,080480280055
-BEER,,2020-05-15 00:00:00,24pk Corona 7oz Corona,25.07,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,080660954080
-BEER,,2020-05-12 00:00:00,Corona Extra 18 x 12oz,25.07,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,080660956800
-BEER,,2020-05-19 00:00:00,Corona Extra 12 x 12oz Glass,18.08,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,080660956954
-LIQUOR,,2020-05-08 00:00:00,Basil Hayden's 750ml Whiskey,33.78,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686012405
+LIQUOR,,2019-05-18 00:00:00,Grey Goose Orange Vodka 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480281038
+LIQUOR,,2019-11-11 00:00:00,Grey Goose Citron Vodka 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480282042
+LIQUOR,,2019-05-17 00:00:00,Drambuie Liqueur 750ml Import,34.87,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080480302023
+BEER,,2019-08-09 00:00:00,Corona Extra 6pk 12oz Import,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080660956053
+BEER,,2019-08-09 00:00:00,Corona Light 12pk 12oz Import,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080660956213
+BEER,,2019-08-07 00:00:00,Corona Light 18pk 12oz Import,25.06,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080660956237
+BEER,,2019-08-09 00:00:00,Corona Light 6pk 12oz Import,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080660956251
+BEER,,2019-05-29 00:00:00,Corona Extra Single 24oz Import,3.21,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080660956435
+BEER,,2019-06-23 00:00:00,Modelo Especial 18pk 12oz Import,25.06,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080660957111
+BEER,,2019-08-09 00:00:00,Modelo Especial 12pk 12oz Import,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080660957579
+BEER,,2019-08-08 00:00:00,Modelo Especial 6pk 12oz Import,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080660957654
+BEER,,2019-08-05 00:00:00,Modelo Especial Single 24oz Import,3.21,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080660957777
+BEER,,2019-06-27 00:00:00,Modelo Negro 12pk 12oz Domestic,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080660957876
+BEER,,2019-05-20 00:00:00,Modelo Chelada Single 24oz Imoport,3.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,080660957968
+WINE,,2019-11-09 00:00:00,Poppy Hill Cab Sav 750ml Domestic,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080667223462
+LIQUOR,,2019-05-06 00:00:00,Jim Beam Red Stag 50ml Whiskey,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080686001010
+LIQUOR,,2019-04-20 00:00:00,Jim Bean 1.75L Whiskey,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686001102
+LIQUOR,,2019-05-03 00:00:00,Jim Bean 750ml Whiskey,19.61,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686001409
+LIQUOR,,2019-05-20 00:00:00,Jim Beam 375ml Bourbon,11.98,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686001607
+LIQUOR,,2019-05-23 00:00:00,Jim Beam 200ml Bourbon,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686001706
+LIQUOR,,2019-05-22 00:00:00,Jim Beam Bourbon 50ml Whiskey,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,080686001904
+LIQUOR,,2019-05-24 00:00:00,Jim Beam Honey 50ml Whiskey,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080686006091
+LIQUOR,,2019-05-03 00:00:00,Jim Beam Honey 50ml Whiskey,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,080686006589
 LIQUOR,,2020-04-16 00:00:00,Knob Creek Small Batch 750ml Whiskey,33.78,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686016403
+LIQUOR,,2019-05-10 00:00:00,Jim Beam Black 50ml whiskey,1.34,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,080686034902
+LIQUOR,,2019-08-09 00:00:00,Skinny girl Maragrita 750ml Liqueur,15.25,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686110040
+LIQUOR,,2019-05-23 00:00:00,Skinny girl Spicy Lime Marg 750ml Liqueur,15.25,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686110613
 LIQUOR,,2020-04-25 00:00:00,Laphoraig 10 Years 750ml Scotch,54.49,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686813019
-LIQUOR,,2020-05-05 00:00:00,Hornitos Plata 750ml Tequila,30.51,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686835325
+LIQUOR,,2019-04-17 00:00:00,Canadian Club 1858 1.75L Whiskey,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686821120
 LIQUOR,,2020-04-24 00:00:00,Pinnacle 1.75L Vodka,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686929451
+LIQUOR,,2019-04-25 00:00:00,Pinnacle Cinnamon Roll 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080686931850
+WINE,,2019-05-18 00:00:00,Costal Estates Pinot Noir 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,080696151149
+WINE,,2019-04-20 00:00:00,Costal Estates Riesling 750ml Domestic,11.98,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080696921353
 LIQUOR,,2020-03-20 00:00:00,Galliano L'Autenico Liqueur 750ml Import,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,080915112128
-WINE,,2020-05-01 00:00:00,Prosecco Cupcake,12.83,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,081308001326
-WINE,,2020-05-01 00:00:00,Pinot Noir Chloe,14.97,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,081308003566
-WINE,,2020-05-18 00:00:00,Prosecco Chloe,14.97,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,081308003733
-WINE,,2020-04-30 00:00:00,Kendall Jackson Pinot Gris 750ml Domestic,15.25,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,081584002154
-WINE,,2020-05-15 00:00:00,Kendall Jackson Chard 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081584013105
-WINE,,2020-05-05 00:00:00,Kendall Jackson Cab Sav 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081584013174
+WINE,,2019-08-09 00:00:00,Sav Blanc Turtle Bay,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,081054995856
+WINE,,2019-04-24 00:00:00,Cupcake Merlot 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081308000282
+WINE,,2019-07-27 00:00:00,Cupcake Sav Blanc 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081308000435
+WINE,,2019-05-24 00:00:00,Cupcake Riesling 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081308001074
+WINE,,2019-07-29 00:00:00,Cupcake Pinot Noir 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081308001241
+WINE,,2019-09-13 00:00:00,Nobilo Sav Blanc 750ml Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081434315304
+WINE,,2019-11-27 00:00:00,Kendall Jackson Sav Blanc 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081584130406
 WINE,,2020-02-29 00:00:00,Kendall Jackson Pinot Noir 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081584131519
 WINE,,2020-02-21 00:00:00,Kendall Jackson Merlot 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081584131526
-WINE,,2020-05-08 00:00:00,Veuve Clicquot Veuve Clicquot,59.94,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,081753814755
-LIQUOR,,2020-05-18 00:00:00,Raspberry Smirnoff,15.25,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,082000003960
-LIQUOR,,2020-05-01 00:00:00,Jose Cuevo Gold 1.75L Tequila,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000192985
+WINE,,2019-11-03 00:00:00,Guenoc Sav Blanc 750ml Domestic,9.62,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,081633388321
+LIQUOR,,2019-10-17 00:00:00,Glenmorangie 10 Years 750ml Scotch,54.49,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,081753810818
+LIQUOR,,2019-09-06 00:00:00,Glenmorangie Lasanta 12 Years 750ml Scotch,59.95,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,081753810863
+LIQUOR,,2019-12-13 00:00:00,Black 375ml Hennessy,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,081753816971
+WINE,,2019-12-31 00:00:00,Rose Moet,59.94,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,081753831011
+LIQUOR,,2019-04-20 00:00:00,Smirnoff 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000000068
+LIQUOR,,2019-09-06 00:00:00,Smirnoff 100 750ml Vodka,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000000105
+LIQUOR,,2019-04-17 00:00:00,Smirnoff Cranberry 750ml Vodka,15.25,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000001225
+BEER,,2019-04-19 00:00:00,Smirnoff Ice Raspberry 6pk 12oz Malt,10.89,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,082000727545
+LIQUOR,,2019-09-05 00:00:00,Smirnoff 1.75L Vodka,25.06,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000727606
+BEER,,2019-08-08 00:00:00,Shirnoff Ice Grape 6pk 12oz Malt,11.01,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082000732143
+LIQUOR,,2019-04-21 00:00:00,Smirnoff Lime 750ml Vodka,15.25,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000732860
+LIQUOR,,2019-04-20 00:00:00,Smirnoff Grape 750ml Vodka,15.25,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000740438
+LIQUOR,,2019-04-16 00:00:00,Smirnoff Coconut 750ml Vodka,15.25,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000755623
+LIQUOR,,2019-05-17 00:00:00,Seagrams 7 Spiced 750ml Whiskey,6.53,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000760894
+LIQUOR,,2019-06-14 00:00:00,Godiva Dark Choco Liqueur 750ml Import,28.33,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000766698
+LIQUOR,,2019-04-16 00:00:00,Captain Morgan White 750ml Rum,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000766827
+LIQUOR,,2019-07-05 00:00:00,Crown Royal Vanilla 750ml Whiskey,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000776598
+BEER,,2019-04-19 00:00:00,Smirnoff Ice Smash Lemon Lime Single 24oz Malt,3.21,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,"duplicate_sku,high_margin",082000776918
+BEER,,2019-04-19 00:00:00,Smirnoff Ice Smash Lemon Lime Single 24oz Malt,3.21,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,"duplicate_sku,high_margin",082000776918
+BEER,,2019-04-19 00:00:00,Smirnoff Variety 12pk 12oz Seltzer,18.52,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000781424
+BEER,,2019-04-19 00:00:00,Smirnoff Raspberry Rose 6pk 12oz Malt,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082000787884
 MISC,,2020-02-16 00:00:00,BlueBerry 375ml Smirnoff,9.62,"{""department"": ""MISC"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,082000788164
 LIQUOR,,2020-04-08 00:00:00,watermelon 375ml Smirnoff,9.62,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,082000788225
-WINE,,2020-05-14 00:00:00,Dreaming Tree Crush Red 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082100738533
+LIQUOR,,2019-09-05 00:00:00,Smirnoff 200ml vodka,5.44,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08200802
+LIQUOR,,2019-04-22 00:00:00,Smirnoff Green Apple 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08210003
+WINE,,2019-04-28 00:00:00,Monkey Bay Sav Blanc 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082100736300
+LIQUOR,,2019-04-22 00:00:00,Smirnoff Watermelon 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,"duplicate_sku,high_margin",08211604
+LIQUOR,,2019-04-22 00:00:00,Smirnoff Watermelon 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,"duplicate_sku,high_margin",08211604
+LIQUOR,,2019-04-19 00:00:00,Smirnoff Cranberry 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08212108
+LIQUOR,,2019-04-20 00:00:00,Smirnoff Cherry 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08214009
+LIQUOR,,2019-04-22 00:00:00,Smirnoff Lime 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08214805
+LIQUOR,,2019-04-16 00:00:00,Smirnoff Grape 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08217802
 LIQUOR,,2020-04-23 00:00:00,Jack Daniel's Honey 750ml Whiskey,29.42,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184000335
-LIQUOR,,2020-05-18 00:00:00,Jack Daniels Honey 375ml Whiskey,17.43,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184000342
-LIQUOR,,2020-05-18 00:00:00,Jack Daniels Honey 50ml Whiskey,3.2,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082184000359
 LIQUOR,,2020-04-06 00:00:00,Jack Daniel's Honey 1.75L Whiskey,46.86,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184000618
-LIQUOR,,2020-05-17 00:00:00,Jack Daniels Honey 200ml Whiskey,10.89,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184000625
+LIQUOR,,2019-12-26 00:00:00,Jack Daniel's Fire 750ml Whiskey,29.42,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184001172
+LIQUOR,,2019-12-03 00:00:00,Jack Daniels Fire 50ml Whiskey,3.2,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082184001189
 LIQUOR,,2020-02-15 00:00:00,Jack Daniel's Fire 1.75L Whiskey,46.86,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184001219
-LIQUOR,,2020-05-02 00:00:00,Jack Daniels Fire 200ml Whiskey,10.89,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184001554
+LIQUOR,,2019-05-24 00:00:00,Jack Daniel's Rye 750ml Whiskey,30.51,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184003459
 LIQUOR,,2020-03-13 00:00:00,Jack Daniel's Single Barrel 750ml Whiskey,54.49,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184087008
-LIQUOR,,2020-05-18 00:00:00,Jack Daniel's 1.75L Whiskey,46.86,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184090428
-LIQUOR,,2020-05-15 00:00:00,Jack dan 1lt Jack Daniels,32.09,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,082184090442
-LIQUOR,,2020-05-14 00:00:00,Jack Daniel's 750ml Whiskey,29.42,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184090466
-LIQUOR,,2020-05-14 00:00:00,Jack Daniels 375ml Whiskey,17.43,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184090503
-LIQUOR,,2020-05-16 00:00:00,Jack Daniels 200ml Whiskey,10.89,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082184090527
+WINE,,2019-04-16 00:00:00,Bota Mini RedVolution 500ml Domestic,5.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242010832
+WINE,,2019-09-30 00:00:00,Noble Vines the one Black 750ml Domestic,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242010900
+WINE,,2019-04-17 00:00:00,Bota Mini Chard 500ml Domestic,5.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242011013
+WINE,,2019-04-15 00:00:00,Bota Box Pinot Noir 3L Domestic,19.61,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082242012362
+WINE,,2019-04-15 00:00:00,Z Alexander Brown Prop Red 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242013932
+WINE,,2019-08-06 00:00:00,Noble Vines 337 Cab Sav 750ml Domestic,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242280433
+WINE,,2019-09-24 00:00:00,Gnarly Head Cab Sav 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242290432
+WINE,,2019-04-18 00:00:00,Gnarly Head Pinot Grigio 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242293334
+WINE,,2019-10-13 00:00:00,Gnarly Head Pinot Noir 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242293433
+WINE,,2019-06-25 00:00:00,Gnarly Head Zinfandel 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242294935
+WINE,,2019-08-31 00:00:00,Noble Wines Chard 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082242562133
+LIQUOR,,2019-04-20 00:00:00,Smirnoff Pineapple 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08224404
+LIQUOR,,2019-04-22 00:00:00,Smirnoff Espresso 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08226208
+LIQUOR,,2019-04-17 00:00:00,Smirnoff Peach 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08228109
+LIQUOR,,2019-04-15 00:00:00,Smirnoff Mango 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08228905
+LIQUOR,,2019-04-20 00:00:00,Smirnoff Whipped Cream 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08232306
+LIQUOR,,2019-04-22 00:00:00,Smirnoff Orange 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08239008
+LIQUOR,,2019-04-17 00:00:00,Smirnoff Raspberry 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08240004
+LIQUOR,,2019-04-16 00:00:00,Smirnoff Vanilla 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08240509
+LIQUOR,,2019-04-22 00:00:00,Smirnoff Red 50ml Vodka,1.6,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08247201
+LIQUOR,,2019-04-20 00:00:00,Smirnoff Grapefruit 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08247706
 WINE,,2020-03-18 00:00:00,Maggio Merlot 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082544007240
-LIQUOR,,2020-05-18 00:00:00,Inver House Green 1.75L Whiskey,17.43,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,082928236310
+WINE,,2019-12-24 00:00:00,Old Soul Pinot Noir 750ml Domestic,14.97,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082544990474
+LIQUOR,,2019-09-07 00:00:00,Smirnoff 100 Blue 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08255006
+LIQUOR,,2019-09-06 00:00:00,Smirnoff 375ml vodka,9.8,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08256102
+LIQUOR,,2019-04-22 00:00:00,Smirnoff Blue 375ml vodka,10.89,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08256209
+WINE,,2019-06-11 00:00:00,Clifford Bay Sav Blanc 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,082915003093
+WINE,,2019-06-06 00:00:00,Estancia Pinot Noir 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083085301187
 WINE,,2020-04-01 00:00:00,Rosatello Rose 750ml Import,11.98,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083085430016
 WINE,,2020-03-10 00:00:00,Ruffino Chianti 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083085903022
 WINE,,2020-04-16 00:00:00,Ruffino Chianti Superiore 750ml Import,14.97,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083085903046
-WINE,,2020-05-16 00:00:00,Ruffino Riserva Ducale 750ml Import,27.81,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083085903084
-WINE,,2020-05-12 00:00:00,Ruffino Pinot Grigio 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,083085903213
+WINE,,2019-11-17 00:00:00,Ruffino Il Ducale Toscana 750ml Import,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083085903312
 WINE,,2020-03-15 00:00:00,Ruffino Prosecco Sparkling 750ml Import,16.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083085904081
 LIQUOR,,2020-02-01 00:00:00,Jagermeifter Liqueur 50ml,2.45,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083089660105
 LIQUOR,,2020-04-26 00:00:00,Chambord Liqueur 750ml Import,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083300034531
+LIQUOR,,2019-12-11 00:00:00,Chambord Liqueur 50ml,3.2,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083300034739
+LIQUOR,,2019-10-12 00:00:00,Glenfiddich 12 Year 750ml Scotch,49.04,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664107360
 LIQUOR,,2020-02-14 00:00:00,Sailor Jerry 1.75L Rum,37.05,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664868735
 LIQUOR,,2020-04-18 00:00:00,Milagro Silver Tequila 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664868919
 LIQUOR,,2020-04-01 00:00:00,Milagro Reposado Tequila 750ml,35.96,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664868940
 LIQUOR,,2020-04-16 00:00:00,Sailor Jerry Rum 375ml,11.98,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664869121
 LIQUOR,,2020-04-09 00:00:00,Sailor Jerry Rum 200ml,6.53,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664869138
 LIQUOR,,2020-02-25 00:00:00,Sailor Jerry 50ml Rum,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083664869619
+LIQUOR,,2019-12-31 00:00:00,Hendrick's Gin 1.75L,76.29,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664869756
 LIQUOR,,2020-03-21 00:00:00,Glenfiddich 21 Years 750ml Scotch,185.29,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664872565
-LIQUOR,,2020-05-16 00:00:00,Hendrick's Gin 750ml,43.59,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664990436
-BEER,,2020-05-14 00:00:00,Hop Bullet Sierra Nevada,11.65,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,083783228519
+LIQUOR,,2019-04-20 00:00:00,Tullamore Dew Irish Whiskey 375ml,17.43,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083664873722
+WINE,,2019-04-16 00:00:00,Aime Roqesante Rose 750ml Import,15.25,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083729006393
+BEER,,2019-08-07 00:00:00,Sierra Nevada Hazy IPA 6pk 12oz Craft,13.9,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083783110104
+BEER,,2019-08-07 00:00:00,Sierra Nevada Torpedo 6pk 12oz Craft,11.76,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083783331004
+BEER,,2019-04-16 00:00:00,Sierra Nevada Pale Ale 12pk 12oz Craft,18.52,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083783375121
+BEER,,2019-08-09 00:00:00,Sierra Nevada Pale Ale 6pk 12oz Craft,11.76,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083783375213
+BEER,,2019-06-20 00:00:00,Hoptimum Sierra Nevada,14.92,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,083783375459
 BEER,,2020-02-02 00:00:00,Guinness Draught 6pk 12oz Import,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083820104011
 BEER,,2020-01-31 00:00:00,Guinness Draught 4pk 15oz Import,8.55,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083820123609
 BEER,,2020-02-01 00:00:00,Guinness Draught 8pk 12oz Import,16.34,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083820123685
 BEER,,2020-02-01 00:00:00,Guinness Extra 6pk 12oz Import,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083820123937
 BEER,,2020-04-11 00:00:00,Over the Moon GUINNESS,12.83,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,083820124699
-LIQUOR,,2020-05-07 00:00:00,Kinky Pink 750ml Liqueur,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,084279983431
+BEER,,2019-09-27 00:00:00,Guinness Blonde 6pk 12oz Import,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,083820181326
+BEER,,2019-04-18 00:00:00,Red Stripe 6pk 12oz Import,11.76,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,083820567939
+LIQUOR,,2019-12-06 00:00:00,Rondaiz Coconut 750ml Rum,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,084279971179
+WINE,,2019-04-20 00:00:00,Le Grand Noir Cab Sav 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,084279972121
+WINE,,2019-04-20 00:00:00,Le Grand Pinot Noir 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,084279975054
+WINE,,2019-12-12 00:00:00,Gaucho Club Malbec 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,084279978666
 LIQUOR,,2020-04-09 00:00:00,Kinky Pink Liqueur 50ml,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,084279985978
-LIQUOR,,2020-05-07 00:00:00,Kinky Blue Liqueur 50ml,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,084279991528
-WINE,,2020-05-08 00:00:00,Malbec 750ml Alma Mora,11.76,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,084279998558
 LIQUOR,,2020-01-24 00:00:00,Egg Nog Pennsylvania,11.76,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,084380360947
-WINE,,2020-04-28 00:00:00,Korbel Brut Sparkling 750ml Domestic,15.25,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,084704091328
-WINE,,2020-05-08 00:00:00,Korbel Extra Dry Sparkling 750ml Domestic,15.25,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,084704091472
+LIQUOR,,2019-07-23 00:00:00,Red Eye Bloody Mary 750ml Mixer,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,084519870033
+WINE,,2019-12-24 00:00:00,Beau Villages Louis Jadot,12.83,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,084692400546
+WINE,,2019-11-02 00:00:00,Korbel Sweet Rose Sparkling 750ml Domestic,15.25,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,084704097979
 WINE,,2020-02-07 00:00:00,White Merlot Gallo,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,085000001820
+WINE,,2019-04-16 00:00:00,Bella Sera Pinot Grigio 1.5L Import,11.98,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000004241
 WINE,,2020-02-27 00:00:00,Gallo Family Chard 1.5L Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000005064
 WINE,,2020-04-13 00:00:00,Gallo Family Zinfandel 1.5L Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000007846
-WINE,,2020-05-07 00:00:00,Da Vinci Chianti 750ml Import,13.07,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000012178
-WINE,,2020-05-18 00:00:00,Da Vinci Chianti Riserva 750ml Import,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000012307
-LIQUOR,,2020-05-01 00:00:00,New Amsterdam Gin 750ml,16.04,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000014318
-WINE,,2020-05-01 00:00:00,Macmurray Pinot Noir 750ml Domestic,18.52,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000015261
+WINE,,2019-08-07 00:00:00,Ecco Domani Pinot Grigio 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,085000008430
+LIQUOR,,2019-04-17 00:00:00,Camarena Silver 50ml Tequila,2.14,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000008812
+WINE,,2019-12-13 00:00:00,Cab Sauv Frei Brothers,27.24,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085000010532
+WINE,,2019-06-16 00:00:00,Louis M Martin Cab Sav 750ml Domestic,18.52,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000011638
+WINE,,2019-06-11 00:00:00,Mirassou Pinot Noir 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000012277
+LIQUOR,,2019-09-27 00:00:00,New Amsterdam Gin 1.75L,22.46,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000014301
+WINE,,2019-04-17 00:00:00,Barefoot Pinot Grigio 1.5L Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000014431
 WINE,,2020-04-25 00:00:00,Da vinci Pinot Girgio 750ml Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,085000016589
-LIQUOR,,2020-05-01 00:00:00,Silver 375ml Camarena,13.08,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085000017272
-LIQUOR,,2020-05-01 00:00:00,New Amsterdam 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000019498
-LIQUOR,,2020-05-16 00:00:00,New Amsterdam 1.75L Vodka,22.88,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000019511
+WINE,,2019-04-21 00:00:00,Starborough Sav Blanc 750ml Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000016602
+LIQUOR,,2019-04-14 00:00:00,Camarena Silver Tequila 1.75L,43.59,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000016800
+LIQUOR,,2019-04-17 00:00:00,Camarena Silver Tequila 750ml,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000016824
+WINE,,2019-08-10 00:00:00,Lamarca Prosecco Sparkling 750ml Import,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000017739
+WINE,,2019-04-08 00:00:00,Apothic Red Red Blend 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000017746
+WINE,,2019-03-23 00:00:00,Alamos Cab Sav 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000018170
+WINE,,2019-04-08 00:00:00,Alamos Malbec 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000018194
+LIQUOR,,2019-10-03 00:00:00,New Amsterdam red berry vodka 375ml,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000020364
+WINE,,2019-04-08 00:00:00,Carnivor Cab Sav 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000020425
+WINE,,2019-04-15 00:00:00,Barefoot Pink Moscato 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000020456
 WINE,,2020-02-08 00:00:00,Gascon Colosal Red Blend 750ml Import,14.97,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000020524
-WINE,,2020-05-12 00:00:00,Gallo Family Sweet Peach 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000022573
+WINE,,2019-04-15 00:00:00,Carlo Rossi Moscato Sangria 4L Domestic,18.18,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000021040
+WINE,,2019-04-15 00:00:00,Barefoot Rich Red Blend 1.5L Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000021132
+LIQUOR,,2019-05-06 00:00:00,New Amsterdam Citron 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000021323
+WINE,,2019-03-31 00:00:00,Apothic Rose 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000021545
+WINE,,2019-04-16 00:00:00,Barefoot Malbec 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000021569
+WINE,,2019-04-19 00:00:00,William Hill Cab Sav 750ml Domestic,16.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000021606
+LIQUOR,,2019-07-19 00:00:00,New Amsterdam Pineapple 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000022313
+LIQUOR,,2019-07-18 00:00:00,New Amsterdam Orange 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000022375
 WINE,,2020-03-11 00:00:00,Gallo Family Sweet Berry 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000022986
 WINE,,2020-01-28 00:00:00,Prophecy Pinot Noir,11.76,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,085000023105
-WINE,,2020-05-07 00:00:00,Porphecy Red Blend 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000024485
-BEER,,2020-05-09 00:00:00,Grapefruit High Noon,10.89,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085000026274
-BEER,,2020-05-13 00:00:00,Watermelon High Noon,10.89,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085000029251
-BEER,,2020-05-13 00:00:00,Pineapple High Noon,10.89,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085000029268
-BEER,,2020-05-09 00:00:00,Black Cherry High Noon,10.89,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085000029275
-LIQUOR,,2020-05-18 00:00:00,Pink Whitney New Amsterdam,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085000029626
-BEER,,2020-05-18 00:00:00,H noon 12pk High Noon,30.51,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085000029862
-WINE,,2020-05-16 00:00:00,Brut 4pk Barefoot,11.76,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,085000248799
-WINE,,2020-05-10 00:00:00,Sparkling Fre,9.62,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08510527
+WINE,,2019-09-29 00:00:00,Prophecy Sav Blanc 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000023112
+WINE,,2019-06-07 00:00:00,Dark Horse Rose 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000024218
+WINE,,2019-10-05 00:00:00,Prophecy Pinot Grigio 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000024492
+WINE,,2019-08-01 00:00:00,Dark Horse Brut Sparkling 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000025321
+LIQUOR,,2019-09-20 00:00:00,New Amsterdam Raspberry 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000026151
+LIQUOR,,2019-04-19 00:00:00,New Amsterdam Raspberry 1.75L Vodka,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085000026175
+NONE,,2019-07-06 00:00:00,DARK HORSE PINOT GRIGIO,5.34,"{""department"": ""NONE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,085000027141
+WINE,,2019-04-17 00:00:00,Macmurray Pinot Noir Russian R 750ml Domestic,24.6,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000229125
+WINE,,2019-08-09 00:00:00,Lamarca Prosecco 3pk Sparkling 187ml Import,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000322437
+WINE,,2019-04-15 00:00:00,Barefoot Bubbly Brut Rose 4pk Sparkling 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085000426746
+WINE,,2019-04-19 00:00:00,Sutter Home Cab Sav 1.5L Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08505525
 WINE,,2020-01-16 00:00:00,Chandon Blanc de Noirs Sparkli 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085155000037
-LIQUOR,,2020-04-28 00:00:00,Ketel One Citroen Vodka 750ml,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085156007509
+WINE,,2019-08-18 00:00:00,Chandon America Sum Brut Spark 750ml Domestic,20.32,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085155273219
 LIQUOR,,2020-02-21 00:00:00,Ketel One 375ml Vodka,11.98,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085156122158
-LIQUOR,,2020-05-14 00:00:00,Ketel One Oranje Vodka 750ml,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085156475001
-LIQUOR,,2020-05-18 00:00:00,Ketel One Vodka 750ml,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085156515417
 LIQUOR,,2020-04-18 00:00:00,Ketel One Peach & Orange Vodka 750ml,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085156675005
-LIQUOR,,2020-05-01 00:00:00,Ketel One Grapefruit Rose Vodka 750ml,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085156775002
-LIQUOR,,2020-05-12 00:00:00,Ketel One Vodka 1.75L,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085156803682
-LIQUOR,,2020-04-29 00:00:00,Ketel One Cucumber & Mint Vodka 750ml,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085156875009
-WINE,,2020-05-09 00:00:00,Cab Sauv Fre,8.55,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08516123
-WINE,,2020-05-06 00:00:00,Pinot Noir Life Vine,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,0852411007969
-LIQUOR,,2020-05-03 00:00:00,Maker's Mark 1.75L Whiskey,65.39,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085246139417
-LIQUOR,,2020-05-06 00:00:00,Maker's Mark 750ml Whiskey,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085246139431
+WINE,,2019-05-23 00:00:00,Cucina Mista Rosso Sweet Red 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085200028504
+WINE,,2019-04-20 00:00:00,Sutter Home Pinot Grigio 4pk 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085200118755
+WINE,,2019-04-20 00:00:00,Sutter Home Cab Sav 4pk 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085200518746
+WINE,,2019-04-21 00:00:00,Sutter Home Chard 4pk 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085200618743
+WINE,,2019-04-21 00:00:00,Sutter Home Zinfandel 4p 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085200918744
+WINE,,2019-04-21 00:00:00,Sutter Home Moscato 4pk 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,085200918751
 LIQUOR,,2020-03-07 00:00:00,Makers mark 375ml Makers mark,20.7,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085246185001
 LIQUOR,,2020-02-25 00:00:00,Marker's 46 750ml Whiskey,49.04,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,085246500101
+LIQUOR,,2019-08-03 00:00:00,E&J 750ml Brandy,15.25,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08541305
+WINE,,2019-07-21 00:00:00,Fairbanks Sherry 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08553708
+LIQUOR,,2019-02-16 00:00:00,Tequila Rose Strawber Liqueur 750ml Domestic,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,085592121043
+LIQUOR,,2019-10-14 00:00:00,New Amsterdam 100 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08564607
+LIQUOR,,2019-05-08 00:00:00,Gallo Sweet Vermouth 750ml Liqueur,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08569000
 LIQUOR,,2020-04-17 00:00:00,Gallo Extra Dry Vermouth 750ml Liqueur,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08569107
+LIQUOR,,2019-10-03 00:00:00,New Amsterdam 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08588005
 WINE,,2020-02-21 00:00:00,Manischewitz Manischewitz,6.41,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,085976033931
+WINE,,2019-04-19 00:00:00,Woodbridge Chard 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086003000087
+WINE,,2019-04-17 00:00:00,Woodbridge Merlot 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086003000490
+WINE,,2019-04-15 00:00:00,Woodbridge Chard 4pk 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086003002586
 WINE,,2020-04-11 00:00:00,The Prisoner The Pisoner,50.13,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,086003255067
+WINE,,2019-08-20 00:00:00,Robert Mondavi Cab Sav Bourbon 750ml Domestic,15.25,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,086003780217
+WINE,,2019-08-21 00:00:00,Robert Mondavi Chard 750ml Domestic,14.97,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086003780248
 WINE,,2020-03-05 00:00:00,RM Bourbon Cab RM,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,086003820753
+WINE,,2019-04-20 00:00:00,Woodbridge Chard 1.5L Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086003873889
 WINE,,2020-02-11 00:00:00,Charles Krug Chard 750ml Domestic,19.25,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086012102833
-WINE,,2020-05-17 00:00:00,Fortissimo 3lt Fortissimo,21.79,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,086012500455
-LIQUOR,,2020-05-18 00:00:00,Baileys 1.75ml Baileys 1.75ml,43.59,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,086767210029
+WINE,,2019-07-19 00:00:00,Purple Heart Red Blend 750ml Domestic,18.52,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,086012191110
+WINE,,2019-06-24 00:00:00,CK Mondavi Sav Blanc 1.5L Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086012400649
+WINE,,2019-08-09 00:00:00,CK Mondavi Chard 1.5L Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086012400748
+WINE,,2019-08-06 00:00:00,CK Mondavi Merlot 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086012500837
+WINE,,2019-07-26 00:00:00,CK Mondavi Merlot 1.5L Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086012500844
+WINE,,2019-07-23 00:00:00,CK Mondavi Cab Sav 1.5L Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086012500943
+WINE,,2019-05-29 00:00:00,CK Modavi Scarlet Five Red Ble 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086012501339
+LIQUOR,,2019-09-06 00:00:00,Margaritaville Gold Tequila,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086024007997
+LIQUOR,,2019-09-10 00:00:00,Christian Brothers Brandy 50ml,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086036100198
+LIQUOR,,2019-03-31 00:00:00,Bailey's Original 750ml Liqueur,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,086767210067
 LIQUOR,,2020-04-14 00:00:00,Irish Cream 375ml Baileys,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,086767210098
+LIQUOR,,2019-04-15 00:00:00,Baileys Irish Cream Liqueur 50ml,2.13,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086767210128
 LIQUOR,,2020-04-14 00:00:00,Sambvca 375ml Romona,17.43,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,086767220097
-LIQUOR,,2020-05-15 00:00:00,Bailey's Minis 4pk 100ml Liqueur,13.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,086767701367
-WINE,,2020-05-16 00:00:00,Cavit Pinot Grigio 1.5L Import,13.07,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,086785000039
-WINE,,2020-05-19 00:00:00,Cavit Pinot Grigio 750ml Import,8.55,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086785000084
-WINE,,2020-05-15 00:00:00,Roscato Sweet Red 750ml Import,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086785110738
-WINE,,2020-05-09 00:00:00,Cavit Chard 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086785211190
+LIQUOR,,2019-05-08 00:00:00,Romana Sambvca Liqueur 200ml,9.8,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,086767220103
+LIQUOR,,2019-05-08 00:00:00,Romana Sambvca 50ml Liqueur,3.21,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086767220127
+LIQUOR,,2019-07-30 00:00:00,Goldschlager Liqueur 200ml,8.03,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086767500106
+LIQUOR,,2019-10-14 00:00:00,Goldschlager 50ml Liqueur,2.88,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086767500120
+WINE,,2019-11-02 00:00:00,Cavit Cab Sav 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086785211251
 WINE,,2020-01-05 00:00:00,Cavit Pinot Noir 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086785211503
 WINE,,2020-03-14 00:00:00,Cavit Riesling 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086785212081
 WINE,,2020-04-25 00:00:00,Cab Sav Callia,9.62,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,086785750804
+WINE,,2019-04-20 00:00:00,Smith & Hook Cab Sav 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086788000906
 WINE,,2020-03-25 00:00:00,Pinot Noir Hahn,15.25,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,086788888023
+WINE,,2019-07-16 00:00:00,Seven Daughters Pinot Noir 750ml Domestic,11.98,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,086891080253
+WINE,,2019-08-02 00:00:00,Federalist Chard 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,086891080598
+LIQUOR,,2019-04-15 00:00:00,Captain Morgan 750ml Rum,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087000002715
 LIQUOR,,2020-03-19 00:00:00,Bulleit 1.75ml Bulleit,62.12,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,087000004047
-LIQUOR,,2020-05-19 00:00:00,Crown Royal 750ml Whiskey,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087000007253
+LIQUOR,,2019-07-14 00:00:00,Seagrams VO 750ml Whiskey,18.52,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087000007376
+LIQUOR,,2019-07-05 00:00:00,Crown Royal Canadian Whiskey 375ml,20.7,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087000007604
+LIQUOR,,2019-03-07 00:00:00,Captain Morgan 1.75ML Rum,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,087000201156
+LIQUOR,,2019-07-01 00:00:00,Crown Royal 1.75ml Canadian whiskey,53.4,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,087000700604
+LIQUOR,,2019-05-27 00:00:00,Seagrams 7 1.75L Whiskey,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087000700703
+LIQUOR,,2019-06-28 00:00:00,Seagrams VO 1.75L Whiskey,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087000700758
+LIQUOR,,2019-04-21 00:00:00,UV Blue 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,087116014381
 LIQUOR,,2020-03-25 00:00:00,Crown royal 50ml Crown royal,4.27,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08719902
-LIQUOR,,2020-05-15 00:00:00,Cointreau 750ml Liqueur,39.23,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087236565107
-LIQUOR,,2020-05-05 00:00:00,Cointreau 375ml Cointreau,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,087236565206
+LIQUOR,,2019-10-30 00:00:00,Highland Park 12 Years 750ml Scotch,54.49,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087236400095
 LIQUOR,,2020-01-18 00:00:00,Cointreau 50ml Cointreau,4.35,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,087236565305
-LIQUOR,,2020-05-13 00:00:00,Mount Gay Eclipse 1.75L Rum,38.14,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087236950019
 LIQUOR,,2020-02-09 00:00:00,Mount Gay Eclipse 750ml Rum,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087236950033
+LIQUOR,,2019-05-06 00:00:00,Mount Gay Black Barrel 750ml Rum,28.33,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087236950538
+LIQUOR,,2019-04-16 00:00:00,St Remy Autentic VSOP 750ml Brandy,17.43,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087236992002
+WINE,,2019-05-01 00:00:00,Mezzacorona Pinot Grigio 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,087241881094
+LIQUOR,,2019-04-17 00:00:00,Captain Morgan Rum 200ml,6.53,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08727309
+LIQUOR,,2019-04-17 00:00:00,Captiain Morgon Spiced Rum50ml Rum,2.14,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08731409
 LIQUOR,,2020-04-11 00:00:00,Choco Liqu 50ml Godiva,4.27,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08731603
+LIQUOR,,2019-07-19 00:00:00,Seagrams7 50ml Whiskey,1.98,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08732602
 LIQUOR,,2020-04-10 00:00:00,Seagrams VO 50ml Canadian Whiskey,2.18,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08732709
 WINE,,2020-01-09 00:00:00,Clos du Bois Pinot Noir 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,087356442128
-WINE,,2020-05-13 00:00:00,Clos Du Bois Pinot Grigio 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,087356510445
+WINE,,2019-08-09 00:00:00,Clos du Bois Chard 1.5L Domestic,19.61,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087356510131
 LIQUOR,,2020-02-01 00:00:00,Bulleit 1.75ml Bulleit,59.94,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,08740407
-WINE,,2020-05-09 00:00:00,Rodney Strong Chardonnay,14.97,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,087512913257
-WINE,,2020-05-06 00:00:00,Knights Valley Rodney Strong,27.81,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,087512929364
-WINE,,2020-05-14 00:00:00,Alexander Valley Rodney Strong,23.53,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,087512929685
+WINE,,2019-09-09 00:00:00,Rodney Strong Merlot 750ml Domestic,18.52,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087512073395
+WINE,,2019-10-01 00:00:00,Rodney Strong Cab Sav 750ml Domestic,19.61,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087512912359
+WINE,,2019-11-17 00:00:00,Rodeny Strong Pinot Noir 750ml Domestic,23.53,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,087512927957
+LIQUOR,,2019-05-17 00:00:00,Godiva White Chocolate 750ml Liqueur,31.6,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08755108
 LIQUOR,,2020-04-09 00:00:00,White Cho 50ml Godiva,4.27,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,08755506
+LIQUOR,,2019-12-31 00:00:00,Jura 10yr Jura,64.19,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,087647081425
 LIQUOR,,2020-03-05 00:00:00,Dalmore 12 Years 750ml Scotch,70.84,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087647111672
-BEER,,2020-05-16 00:00:00,Truly Lime 6 x 12oz,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692004172
-BEER,,2020-05-16 00:00:00,Truly Berry Variety Pack 12 x 12oz,18.08,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,087692006862
-BEER,,2020-05-18 00:00:00,Truly Tropical Variety Pack 12 x 12oz,18.08,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,087692008040
-BEER,,2020-05-18 00:00:00,Berry24oz Truly,3.21,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,087692009511
-BEER,,2020-05-16 00:00:00,Truly Pineapple 6 x 12oz,10.69,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,087692009658
-BEER,,2020-05-13 00:00:00,Pine 24oz Truly,3.21,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,087692009702
-BEER,,2020-05-16 00:00:00,Truly Watermelon & Kiwi 6 x 12oz,10.69,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,087692009894
+BEER,,2019-06-22 00:00:00,Samuel Adams White Christ 12pk 12oz Domestic,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692000372
+BEER,,2019-08-02 00:00:00,Samuel Adams Boston Lager 12pk 12oz Domestic,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692001058
+BEER,,2019-08-10 00:00:00,Samuel Adams Seasonal 12pk 12oz Domestic,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692001096
+BEER,,2019-07-21 00:00:00,Samuel Adams Rebel IPA 6pk 12oz Domestic,11.22,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692001270
+BEER,,2019-08-04 00:00:00,Samuel Adams Rebel IPA 12pk 12oz Domestic,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692001744
+BEER,,2019-08-09 00:00:00,Samuel Adams Sam 76 6pk 12oz Domestic,11.22,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692004929
+BEER,,2019-04-16 00:00:00,Truly Wild Berry 6pk 12oz Seltzer,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692006787
+BEER,,2019-08-02 00:00:00,Samuel Admas NE IPA 4pk 16oz Domestic,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692006992
+BEER,,2019-07-26 00:00:00,Samuel Adams NE Pale Ale 4pk 16oz Domestic,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692008064
+BEER,,2019-08-04 00:00:00,Samuel Adams Boston Lager 6pk 12oz Domestic,11.22,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692100126
+BEER,,2019-07-20 00:00:00,Samuel Adams Light 6pk 12oz Domestic,11.22,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692111023
+BEER,,2019-06-20 00:00:00,Samuel Adams Light 12pk 12oz Domestic,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692111030
+BEER,,2019-08-10 00:00:00,Samuel Adams Boston Ale 6pk 12oz Domestic,11.22,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692300304
+BEER,,2019-08-10 00:00:00,Samuel Adams Seasonal 6pk 12oz Domestic,11.22,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692300502
+BEER,,2019-04-19 00:00:00,Twisted Tea Half & Half 6pk 12oz Domestic,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,087692751021
+BEER,,2019-04-20 00:00:00,Twisted Tea Half & Half Single 24oz Malt,3.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,087692752318
+BEER,,2019-03-04 00:00:00,Angry Orchard Crisp Apple 6pk 12oz Cider,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,087692821021
+BEER,,2019-04-20 00:00:00,Twisted Tea 6pk 12oz Domestic,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,087692831020
+BEER,,2019-04-19 00:00:00,Twisted Tea 12pk 12oz Domestic,16.78,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,087692831341
+BEER,,2019-04-19 00:00:00,Twisted Tea Single 24oz Malt,3.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,087692832317
 WINE,,2020-03-16 00:00:00,Predator Zinfandel 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,087712202120
-LIQUOR,,2020-05-16 00:00:00,Eagle Rare 750ml Whiskey,35.96,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088004021344
+LIQUOR,,2019-08-03 00:00:00,Seagrams Vo 200ml Canadian Whiskey,6.53,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08773900
+LIQUOR,,2019-05-14 00:00:00,Seagrams VO 375ml Canadian Whiskey,10.89,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08776101
+LIQUOR,,2019-06-15 00:00:00,Seagrams'7 375ml Whiskey,9.25,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08776509
+LIQUOR,,2019-08-08 00:00:00,Fireball Cinnamon 1.75L Whiskey,35.96,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088004009281
+LIQUOR,,2019-08-03 00:00:00,Dr McGillicuddy Grape 50ml Liqueur,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088004009588
+LIQUOR,,2019-04-18 00:00:00,Dr McGillicuddy Rootbeer 50ml Liqueur,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088004009632
+LIQUOR,,2019-08-09 00:00:00,Dr McGillicuddy Apple pie 50ml Liqueur,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088004009755
+LIQUOR,,2019-08-06 00:00:00,Dr McGillicuddy Butterscot50ml Liqueur,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088004020323
 LIQUOR,,2020-02-20 00:00:00,Dr. McGillicuddy Irish 750ml Whiskey,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088004023478
-LIQUOR,,2020-05-15 00:00:00,Sea Ice 375ml Vodka,5.34,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,088004028244
+LIQUOR,,2019-07-08 00:00:00,Sea Ice 1.75L Vodka,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088004028213
+LIQUOR,,2019-08-08 00:00:00,Sea Ice 50ml,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,088004028268
+LIQUOR,,2019-04-17 00:00:00,Dr Mcgillicuddy's 375ml Liqueur 375ml,10.89,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088004144067
+LIQUOR,,2019-04-28 00:00:00,Dr McGillicuddy Mint 50ml Liqueur,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088004144081
+LIQUOR,,2019-07-22 00:00:00,Dr.McGillicuddy's Mentholmint 750ml Liqueur,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088004144449
+LIQUOR,,2019-07-18 00:00:00,Fireball Cinnamon Whisky Whiskey,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088004144692
+LIQUOR,,2019-04-22 00:00:00,Fireball Cinnamon 50ml Whisky 50ml,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088004144708
+LIQUOR,,2019-07-31 00:00:00,Fireball 375ml Liqueur,10.89,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088004144722
+LIQUOR,,2019-08-08 00:00:00,Fireball 200ml Liqueur 200ml,6.53,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088004144739
+LIQUOR,,2019-06-16 00:00:00,Ciroc Snap Frost Vodka 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088076161863
+LIQUOR,,2019-08-03 00:00:00,Ciroc Vodka Vodka 375ml,20.7,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088076162655
 LIQUOR,,2020-03-23 00:00:00,Johnnie Walker Red Label Scotch 1.75L,37.05,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088076163164
+LIQUOR,,2019-11-15 00:00:00,Glenkinchie 12 Years 750ml Scotch,65.39,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088076171459
+LIQUOR,,2019-08-06 00:00:00,Ciroc Coconut Vodka 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088076174955
+LIQUOR,,2019-04-19 00:00:00,Ciroc Peach Vodka 375ml,20.7,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088076177390
 LIQUOR,,2020-04-23 00:00:00,Gold Label 750ml Johnnie Walker,98.09,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088076178243
+LIQUOR,,2019-03-19 00:00:00,Ciroc Pineapple Vodka 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088076179080
+LIQUOR,,2019-06-29 00:00:00,Ciroc Mango Vodka 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088076180697
+LIQUOR,,2019-06-20 00:00:00,Johnnie Walker 12Y Black Scotch 750ml,43.59,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088076182547
 LIQUOR,,2020-04-21 00:00:00,Summer watermelon Ciroc,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088076183728
+LIQUOR,,2019-11-29 00:00:00,A Song of Fire 750ml Games of thrones,37.05,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088076184114
+LIQUOR,,2019-12-27 00:00:00,A Song of Ice 750ml Games of Thrones,37.05,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088076184121
+LIQUOR,,2019-05-11 00:00:00,Johnnie Walker Black Label Scotch 200ml,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088110011130
+LIQUOR,,2019-05-11 00:00:00,Johnnie Walker Black Label Scotch 375ml,25.06,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088110011192
 LIQUOR,,2020-04-25 00:00:00,Johnnie Walker Black Label Scotch 750ml,43.59,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088110011307
-LIQUOR,,2020-05-04 00:00:00,Johnnie Walker Redlabel 750ml Scotch whiskey,28.33,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088110021306
+LIQUOR,,2019-12-21 00:00:00,Blue Label 750ml Johnnie Walker,217.99,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088110070052
+LIQUOR,,2019-10-09 00:00:00,Dalwhinnie 15 Years 750ml Scotch,68.66,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088110100056
 LIQUOR,,2020-04-03 00:00:00,Lagavulin 16 Years 750ml Scotch,82.83,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088110140052
-LIQUOR,,2020-04-30 00:00:00,Hennessy 50ml Cognac,4.35,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088110150501
 LIQUOR,,2020-04-18 00:00:00,Cognac 375ml Hennessy,22.89,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088110150624
 LIQUOR,,2020-03-05 00:00:00,Oban 14 Years 750ml Scotch,65.39,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088110160050
-WINE,,2020-05-09 00:00:00,Moet & Chandon Imperial Sparkl 750ml Import,49.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088110551056
-LIQUOR,,2020-05-05 00:00:00,Grand Marnier Liqueur,40.32,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088110931032
-WINE,,2020-05-17 00:00:00,The Palm Whispering,17.11,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,088320002089
-LIQUOR,,2020-05-15 00:00:00,Coffee 375ml Arrow,7.48,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,088352119007
-LIQUOR,,2020-05-16 00:00:00,Triple Sec 375ml Arrow,7.48,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,088352119069
-WINE,,2020-05-10 00:00:00,Simi Cab Sav Simi,21.79,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088415780557
-WINE,,2020-05-19 00:00:00,Relax Riesling 750ml Import,11.98,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088474022407
+WINE,,2019-06-20 00:00:00,Moet & Chandon Rose Imp Sparkl 750ml Import,58.84,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088110552404
+BEER,,2019-09-24 00:00:00,New Castle Brown 6pk 12oz Import,11.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,088345100050
+LIQUOR,,2019-06-18 00:00:00,EverClear Grain Alcohol 750ml,19.61,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088352100036
+BEER,,2019-11-16 00:00:00,Oktoberfest Spaten,11.98,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,088394000066
+WINE,,2019-08-09 00:00:00,Simi Chard 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088415784050
+WINE,,2019-08-02 00:00:00,Evolution Pinot Noir 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088473104135
+WINE,,2019-04-21 00:00:00,Soleil Mimosa Classic Sparklin 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088498110302
+LIQUOR,,2019-04-22 00:00:00,Southern Comfort Liqueur 50ml,2.17,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088544000021
+LIQUOR,,2019-04-17 00:00:00,Southern Comfort 750ml Liqueur,20.7,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088544019054
+LIQUOR,,2019-04-19 00:00:00,Southern Comfort Liqueur 375ml,10.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088544019139
+LIQUOR,,2019-04-22 00:00:00,Southern Comfort Liqueur 200ml,6.53,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088544019160
 WINE,,2020-04-22 00:00:00,Intrinsic Cab Sav 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088586007859
-WINE,,2020-05-15 00:00:00,Chateau Ste Michelle Merlot 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088586602832
-WINE,,2020-05-08 00:00:00,St Michelle Chard,12.83,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,088586603846
+WINE,,2019-04-20 00:00:00,Ste. Michelle Cab Sav 750ml Domestic,16.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088586601835
 LIQUOR,,2020-02-22 00:00:00,Gordons Gin 50ml,1.6,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088600000057
-LIQUOR,,2020-05-16 00:00:00,Gordon's 1.75L Gin,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08860032
-LIQUOR,,2020-04-28 00:00:00,Gordon's 1.75L Vodka,22.46,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08861031
+WINE,,2019-08-09 00:00:00,Ed Hardy Original Sang Sparkli 750ml Import,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088603010060
+WINE,,2019-07-14 00:00:00,Ed Hardy Original Sang Sparkli 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088603010213
+WINE,,2019-07-13 00:00:00,Ed Hardy Original Sangria 3L Domestiv,19.61,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088603010985
+WINE,,2019-06-26 00:00:00,Ed Hardy Rose Sang Sparkling 750ml Import,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088603011425
 LIQUOR,,2020-01-26 00:00:00,Gordons Vodka 375ml Vodka,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,08861633
-WINE,,2020-05-15 00:00:00,Sterling Cab Sav 750ml Domestic,11.98,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088692860232
+WINE,,2019-04-20 00:00:00,Sterling Merlot 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,088692860249
 WINE,,2020-02-21 00:00:00,Sterling Pinot Noir 750ml Domestic,11.98,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,088692862106
-WINE,,2020-04-29 00:00:00,J Lohr Chard 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089121068823
-WINE,,2020-05-15 00:00:00,J Lohr Cab Sav 750ml Domestic,18.52,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089121288122
-WINE,,2020-05-02 00:00:00,Cantina Zaccagnini Montepulciano,17.43,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,089475501014
-WINE,,2020-05-12 00:00:00,Cantina Zaccagnini Pinot Grigio,17.43,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,089475501199
-LIQUOR,,2020-05-17 00:00:00,Tanqueray Gin 50ml,1.87,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08950000
-WINE,,2020-05-16 00:00:00,Kahlua Liqueur 1.5L Import,42.5,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089540122694
-LIQUOR,,2020-05-05 00:00:00,Kahlua Liqueur 750ml Import,25.06,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089540122717
-LIQUOR,,2020-05-13 00:00:00,Rum & Coffee Kahlua,9.62,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,089540122731
+LIQUOR,,2019-04-19 00:00:00,Old Thompson 50ml Whiskey 50ml,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089000010813
+LIQUOR,,2019-03-13 00:00:00,Old Thompson 375ml Whiskey,6.0,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,089000016846
+LIQUOR,,2019-10-04 00:00:00,Red Label 50ml Scotch 50ml,1.6,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,08911302
 LIQUOR,,2020-04-01 00:00:00,Kahlua Liqueur 50ml,2.45,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089540122748
-LIQUOR,,2020-05-15 00:00:00,Hiram Walker Peppermint 750ml Liqueur,13.9,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089540125220
-LIQUOR,,2020-05-16 00:00:00,Rum & Coffee 375ml Kahlua,16.04,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,089540145631
-LIQUOR,,2020-05-02 00:00:00,Malibu 750ml Liqueur,20.7,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089540448992
-LIQUOR,,2020-05-02 00:00:00,Malibu Rum 375ml,11.98,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089540449036
-LIQUOR,,2020-05-02 00:00:00,Malibu 1.75L Liqueur,31.6,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089540449326
 LIQUOR,,2020-04-08 00:00:00,Malibu 50ml Liqueur,1.87,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089540453927
-LIQUOR,,2020-05-02 00:00:00,Malibu Pineapple 750ml Liqueur,20.7,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089540463131
-LIQUOR,,2020-05-08 00:00:00,Rubinoff 1.75L Vodka,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552100116
-LIQUOR,,2020-05-14 00:00:00,Rubinoff 1L Vodka,9.8,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552100130
-LIQUOR,,2020-05-11 00:00:00,Rubinoff 375ml Vodka,4.91,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552100147
-LIQUOR,,2020-05-16 00:00:00,Rubinoff 200ml Vodka,2.94,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089552100154
+LIQUOR,,2019-05-25 00:00:00,Rubinoff Pineapple 1.75L Vodka,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552001260
+LIQUOR,,2019-07-12 00:00:00,Rubinoff Citrus 1.75L Vodka,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552100215
 LIQUOR,,2020-03-20 00:00:00,Rubinoff Raspberry Vodka,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552100246
-LIQUOR,,2020-05-16 00:00:00,Rubinoff Pink Lemonade 1.75L Vodka,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552100635
+LIQUOR,,2019-08-29 00:00:00,Rubinoff Lemonade 1.75L Vodka,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552100598
 LIQUOR,,2020-01-11 00:00:00,Rubinoff Blue Raspberry Vodka,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552110108
-LIQUOR,,2020-05-12 00:00:00,Rubinoff Watermelon 1.75L Vodka,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552921650
-WINE,,2020-05-15 00:00:00,Gabbiano Chianti 750ml Import,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089819501458
-WINE,,2020-05-13 00:00:00,Chateau St Jean Pinot Noir 750ml Domestic,14.16,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089819542987
-WINE,,2020-05-01 00:00:00,Sav Block 19 Crimes,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,089819723560
+LIQUOR,,2019-07-06 00:00:00,Old Mexico Oro 750ml Tequila,14.16,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,089552460869
+WINE,,2019-12-11 00:00:00,Gabbiano Pinot Grigio 750ml Import,8.55,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089819116621
+WINE,,2019-05-11 00:00:00,Gabbiano Chianti 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089819501465
+WINE,,2019-06-23 00:00:00,Riserva Chianti Classico Gabbiano,21.39,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,089819503223
+WINE,,2019-07-08 00:00:00,Lyric Pinot Noir 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089819705993
+WINE,,2019-04-20 00:00:00,The Stag Cab Sav 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089819711192
 WINE,,2020-02-18 00:00:00,Chateau St Jean Merlot 750ml Domestic,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,089819796885
+BEER,,2019-04-17 00:00:00,Yuengling Lager 6pk 12oz Domestic,8.38,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,089924278917
+BEER,,2019-03-17 00:00:00,Yuengling Golden 6pk 12oz Domestic,8.38,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,089924335672
+BEER,,2019-04-16 00:00:00,Yuengling Lager Single 24oz Domestic,3.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,089924600244
+WINE,,2019-07-30 00:00:00,Llama Malbec 750ml Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,091771062083
 LIQUOR,,2020-02-29 00:00:00,Elijah Craig Small Batch,35.96,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,096749000067
-LIQUOR,,2020-04-27 00:00:00,Evan william 1.75 Bourbon,24.6,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,096749021147
+LIQUOR,,2019-07-30 00:00:00,Copa De Oro Coffee Liqueur 1.5L Import,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,096749003471
+LIQUOR,,2019-08-03 00:00:00,Evan Williams 750ml Whiskey,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,096749021345
+LIQUOR,,2019-08-10 00:00:00,Evan Honey Whiskey 50ml,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,096749021796
+LIQUOR,,2019-08-08 00:00:00,Evan Williams Honey 750ml Whiskey,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,096749021802
+LIQUOR,,2019-08-06 00:00:00,Evan williams Whiskey 50ml,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,096749021840
 LIQUOR,,2020-03-25 00:00:00,Larceny 750ml Larceny,29.42,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,096749031559
+WINE,,2019-06-27 00:00:00,La Noble Chard 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,097871001342
+WINE,,2019-05-14 00:00:00,Kris Pinot Girgio 750ml Import,11.98,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,098709436206
+WINE,,2019-04-22 00:00:00,Menage a Trois Red Wine 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,099988071096
+WINE,,2019-04-20 00:00:00,Menage a Trois Midnight Red Bl 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,099988071294
+BEER,,2019-10-06 00:00:00,Peroni 6pk 12oz Import,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,181954000022
+WINE,,2019-07-13 00:00:00,Dr L Riesling 750ml Import,16.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,183103000013
+WINE,,2019-04-19 00:00:00,Villa Wolf Rose 750ml Import,14.16,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,183103000174
+WINE,,2019-05-03 00:00:00,Joel Gott Cab Sav 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,188985000137
+LIQUOR,,2019-06-04 00:00:00,Copper Moon Apple Pie Moonshine 50ml,1.09,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,195407093721
+WINE,,2019-09-14 00:00:00,Brut Veuve Clicquot,49.04,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,3049614083891
+MISC,,2019-11-29 00:00:00,Collins Pimento Olives 4.75 oz,7.62,"{""department"": ""MISC"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,314390027920
 LIQUOR,,2020-03-23 00:00:00,Vodka Khor,1.87,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,4820163121710
 WINE,,2020-04-04 00:00:00,Paxis Red Blend 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,5600312192049
 WINE,,2020-03-14 00:00:00,Paxis Rose,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,5600312192278
+WINE,,2019-12-17 00:00:00,Lagarada Douro 750ml Import,9.62,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,5605567000118
 WINE,,2020-03-07 00:00:00,Chateau Cabredon Bordeaux 750ml Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,601083370150
-BEER,,2020-05-18 00:00:00,Ipswich ale Ipswich ale,11.98,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,606813009072
-Soda,,2020-05-19 00:00:00,Margarita Mix Zing Zang,6.41,"{""department"": ""Soda"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,616003945219
-BEER,,2020-05-16 00:00:00,Green Rabbit howler brew,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,616806910124
-LIQUOR,,2020-05-17 00:00:00,Svedka 1LT Import Vodka,17.43,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,617768111109
-BEER,,2020-05-19 00:00:00,White Claw Raspberry 6 x 12oz,10.89,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,635985260660
-BEER,,2020-05-19 00:00:00,White Claw Variety 12 x 12oz,18.08,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,635985548904
-BEER,,2020-05-19 00:00:00,Variety No2 White Claw,18.08,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,635985800064
-BEER,,2020-05-18 00:00:00,Stone Delicious IPA 12 x 12oz C,20.96,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,636251742040
+BEER,,2019-04-16 00:00:00,Allagash White 4pk 12oz Craft,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,603675101821
+BEER,,2019-09-17 00:00:00,Ipswich Original Ale 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,606813001052
+BEER,,2019-04-21 00:00:00,Wormtown Be Hoppy 4pk 16oz Craft,13.07,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,608866302971
+LIQUOR,,2019-08-02 00:00:00,Ling Zang Bloody Mary 750ml Mixer,6.41,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,616003814225
+LIQUOR,,2019-04-19 00:00:00,Svedka 1.75L Vodka,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,617768111178
+LIQUOR,,2019-04-19 00:00:00,Svedka Rose 1.75L Vodka,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,617768221174
+LIQUOR,,2019-04-21 00:00:00,Tito's 750ml Vodka,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,619947000020
+LIQUOR,,2019-04-22 00:00:00,Tito's 1.75L Vodka,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,619947000037
+LIQUOR,,2019-04-21 00:00:00,Titos 375ml Vodka,13.07,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,619947000051
+LIQUOR,,2019-04-19 00:00:00,Titos 50ml Vodka,2.13,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,619947000068
+LIQUOR,,2019-06-21 00:00:00,Crystal Head Vodka 750ml,43.59,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,627040411414
+BEER,,2019-04-19 00:00:00,Sweet Water 420 Strain 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,631234332126
+WINE,,2019-07-27 00:00:00,Santa Margherita Pinot Grigio 750ml Import,23.97,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,632987200205
+WINE,,2019-07-16 00:00:00,Santa Margherita Prosec Sparkl 750ml Import,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,632987201103
+WINE,,2019-08-08 00:00:00,Feudo Zirtari Terre Siciliane 750ml Import,9.62,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,632987207471
+WINE,,2019-07-10 00:00:00,Santa Marherita Chianti Classi 750ml Import,23.53,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,632987209406
+BEER,,2019-04-19 00:00:00,White Claw Lime 6pk 12oz Seltzer,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,635985025986
+BEER,,2019-12-07 00:00:00,Mike's Hard Black Cherry 6pk 12oz Malt,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,635985067443
+BEER,,2019-10-23 00:00:00,Mike's Lite Hard Lemonade 6pk 12oz Malt,10.56,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,635985068228
+BEER,,2019-07-04 00:00:00,Mike's Hard Limeade 6pk 12oz Malt,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,635985069447
+BEER,,2019-12-07 00:00:00,Mike's Hard Lemonade 6pk 12oz Malt,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,635985100621
+BEER,,2019-11-23 00:00:00,Mike's Hard Lemonade 12pk 12oz Malt,16.78,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,635985120018
+BEER,,2019-12-09 00:00:00,Mike's Harder Lemonade Single 24oz Malt,3.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,635985245834
+BEER,,2019-04-20 00:00:00,White Claw Mango 6pk 12oz Seltzer,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,635985260875
+BEER,,2019-04-17 00:00:00,White Claw Black Cherry 12pk 12oz Seltzer,17.43,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,635985260899
+BEER,,2019-11-21 00:00:00,Mike's Hard Cranberry 6pk 12oz Malt,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,635985606116
 BEER,,2020-03-27 00:00:00,Nugget Nectar Troges,15.25,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,637704071137
-BEER,,2020-05-14 00:00:00,Pipeworks Pineapple Guppy 4 x 16oz,10.69,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,high_margin,641076983004
-WINE,,2020-05-15 00:00:00,Colle Secco Montepulciano 750ml Import,14.97,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,642495544593
+LIQUOR,,2019-06-27 00:00:00,Fabrizia's Italian Magarita 750ml Liqueur,15.25,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,637801271225
+BEER,,2019-07-05 00:00:00,Dogfish Head 120 Single 12oz Craft,10.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,638489000206
+BEER,,2019-05-11 00:00:00,DogFish Head 60 minute 6pk 12oz Craft,13.07,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,638489000299
+BEER,,2019-07-07 00:00:00,Dogfish Head Midas Touch 4pk 12oz Craft,15.83,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,638489000633
+BEER,,2019-08-02 00:00:00,DogFish Head 90 minute 6pk 12oz Craft,16.34,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,638489003122
+BEER,,2019-08-10 00:00:00,Founders All Day IPA 15pk 12oz Craft,18.52,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,642860900245
+BEER,,2019-05-06 00:00:00,Down the Road Undine 4pk 16oz Craft,16.12,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,643307968897
+BEER,,2019-07-25 00:00:00,Down the Road Seventh Star 4pk 16oz Craft,13.07,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,643307968927
+BEER,,2019-07-02 00:00:00,Down the Road Golden City 4pk 16oz Craft,13.07,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,643307969023
+BEER,,2019-05-11 00:00:00,Down the Road Dreamtime 4pk 16oz Craft,15.03,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,643307969030
+BEER,,2019-07-29 00:00:00,Down the Road Feyborn 4pk 16oz Craft,12.83,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,643307969047
+BEER,,2019-06-27 00:00:00,Down the Road Citra Puk 4pk 16oz Craft,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,643307969054
 BEER,,2020-04-18 00:00:00,Female Lead Night Shift,18.52,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,644216252503
-BEER,,2020-05-16 00:00:00,NSB Santilli 12 x 12oz,20.26,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,low_margin,644216259601
-BEER,,2020-05-19 00:00:00,NSB Fluffinity 4 x 16oz,16.25,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,high_margin,644216260904
+BEER,,2019-11-23 00:00:00,whirlpool 19.2oz Night shift,14.38,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,644216255207
 BEER,,2020-03-13 00:00:00,Owl vs unicorn Night shift,17.43,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,644216262304
 BEER,,2020-04-16 00:00:00,How r Ya Night Shift,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,644216264803
-LIQUOR,,2020-05-13 00:00:00,Grand Marnier Liqueur 50ml,4.35,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,649188900360
-LIQUOR,,2020-05-05 00:00:00,Cognac & Orange 375ml Grand Marnier,23.98,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,649188900469
-LIQUOR,,2020-05-09 00:00:00,Grand Marnier 750ml Liqueur,39.58,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,649188900476
 WINE,,2020-04-23 00:00:00,Michael David 7 Dead Zinfandel 750ml Domestic,19.25,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,652935100012
 WINE,,2020-04-17 00:00:00,EarthQuake Cab EarthQuake,26.74,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,652935100067
+WINE,,2019-12-24 00:00:00,Michael David Petite Petit 750ml Domestic,17.11,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,652935100210
 WINE,,2020-04-19 00:00:00,Michael David Freaksho Cab Sav 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,652935100333
+WINE,,2019-10-03 00:00:00,Michael David Chard 750ml Domestic,16.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,652935100401
 WINE,,2020-03-13 00:00:00,Red Blend M David,13.9,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,652935100449
+WINE,,2019-11-15 00:00:00,Cigar Box Malbec 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,655233000510
 BEER,,2020-01-20 00:00:00,Jack's Abby House Lager 6 x 16oz,12.08,"{""department"": ""BEER"", ""vendor"": ""Atlantic"", ""description"": ""NULL""}",NULL,high_margin,662425078554
 BEER,,2020-01-29 00:00:00,Jack's Abby Seasonal 6pk 16oz Craft,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,662425083916
 BEER,,2020-02-02 00:00:00,Jack's Abby Hoponius Union 6pk 16oz Craft,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,662425087907
 BEER,,2020-03-25 00:00:00,Jack's Abby Blood Orange 6pk 16oz Craft,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,662425087945
-BEER,,2020-05-02 00:00:00,Springdale IPA Springdale,13.9,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,662425097814
-BEER,,2020-05-08 00:00:00,Galaxy Brau Jacks Abby,12.2,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,662425097890
-WINE,,2020-05-13 00:00:00,Mi Amore Red 750 Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,672762000149
+BEER,,2019-10-29 00:00:00,Pan Galactic,15.47,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,663593211866
+WINE,,2019-08-08 00:00:00,Decoy Pinot Noir 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,669576019221
+WINE,,2019-07-13 00:00:00,Decoy Merlot 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,669576019252
+WINE,,2019-08-06 00:00:00,Decoy Cab Sav 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,669576019269
+WINE,,2019-06-19 00:00:00,Decoy Rose 750ml Domestic,17.11,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,669576020562
+BEER,,2019-04-19 00:00:00,Whale's Tale Pale Ale 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,670822106121
+LIQUOR,,2019-05-08 00:00:00,Don Julio Blanco Tequila 750ml,46.86,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,674545000001
+LIQUOR,,2019-07-14 00:00:00,Don Julio Anejo Tequila 750ml,59.94,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,674545000063
 LIQUOR,,2020-01-30 00:00:00,Willett Bourbon Willett,53.49,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,680203019353
-Soda,,2020-05-19 00:00:00,Hand sanitizer Fabrizia,6.41,"{""department"": ""Soda"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,686557533224
-WINE,,2020-05-16 00:00:00,Kim Crawford Sav Blanc 750ml Import,17.43,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,689352009611
+WINE,,2019-06-11 00:00:00,FitVine Sav Blanc 750ml Domestic,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,683318626249
+WINE,,2019-08-01 00:00:00,Fitvine Pinot Grigio 750ml Domestic,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,683318626263
+LIQUOR,,2019-08-17 00:00:00,Rhum Barbancourt 750ml Rum,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,689768873318
+WINE,,2019-05-27 00:00:00,Sensi Pinot Noir Rose Sparklin 750ml Import,23.53,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,690304177463
 WINE,,2020-04-11 00:00:00,Sensi Prosecco 750ml Import,23.97,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,690304177555
-WINE,,2020-05-17 00:00:00,Pinot Noir Rose Sensi,23.97,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,690304177562
-BEER,,2020-05-18 00:00:00,NSB Whirlpool 4 x 16oz,14.38,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,low_margin,696859292309
-BEER,,2020-05-19 00:00:00,NSB Santilli 4 x 16oz,14.38,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",1.00000000,low_margin,696859292392
-BEER,,2020-05-19 00:00:00,NSB The 87 4 x 16oz,16.56,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,low_margin,696859292422
 BEER,,2020-03-13 00:00:00,Pfaffnheck Night shift,14.38,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,696859292514
 BEER,,2020-01-27 00:00:00,bennington Night Shift,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,696859292613
-WINE,,2020-05-17 00:00:00,Basso Chianti Poggio Basso,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,6976915164486
-WINE,,2020-05-15 00:00:00,Chateau Clairac Cotes de Borde 750ml Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,702685043180
-BEER,,2020-05-08 00:00:00,Maine Beer Zoe Single 16oz Craft,7.58,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,705105321462
-BEER,,2020-05-05 00:00:00,Lunch Main Beer,8.56,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,705105321660
-BEER,,2020-05-08 00:00:00,Fall Main Beer Company,7.63,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,706954911903
+WINE,,2019-11-15 00:00:00,Roth Cab Sav 750ml Domestic,26.74,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,698743907504
+BEER,,2019-08-03 00:00:00,Sea Dog Wild Blueberry 6pk 12oz Craft,11.76,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,700445060064
+WINE,,2019-04-20 00:00:00,Vallee Des Pins Rose 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,702685043296
+BEER,,2019-04-15 00:00:00,Omission Lager 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,702770081011
+WINE,,2019-04-20 00:00:00,Fly By Pinot Noir 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,706098050193
+BEER,,2019-12-21 00:00:00,Maine Beer Woods & Water Single 16oz Craft,7.58,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,706954911859
+BEER,,2019-11-20 00:00:00,Maine Beer Post Ride Snack Single 16oz Craft,7.58,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,706954912085
+BEER,,2019-09-13 00:00:00,Night Shift Morph 4pk 16oz Craft,14.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,713757066518
 WINE,,2020-03-12 00:00:00,Hess Select Cab Sav 750ml Domestic,18.52,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,717888510025
-LIQUOR,,2020-05-14 00:00:00,Espolon Anejo,43.59,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,721059001298
+LIQUOR,,2019-08-03 00:00:00,Fabrizia Limoncello 750ml Liqueur,20.7,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,718122340866
+LIQUOR,,2019-05-16 00:00:00,Skyy Infusion Texas Grapefruit 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059001731
 LIQUOR,,2020-04-23 00:00:00,Campari 50ml Campari,3.2,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,721059003063
+LIQUOR,,2019-07-05 00:00:00,Skyy 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059007504
+LIQUOR,,2019-08-01 00:00:00,Skyy 1.75L Vodka,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059017503
 LIQUOR,,2020-04-25 00:00:00,Campari 750ml Campari,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,721059047500
-LIQUOR,,2020-05-19 00:00:00,Espolon Blanco 750ml Tequila,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059707503
-LIQUOR,,2020-05-15 00:00:00,Espolon Reposado 750ml Tequila,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059707510
+LIQUOR,,2019-11-24 00:00:00,Irish Mist 750ml Liqueur,29.42,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059507509
+LIQUOR,,2019-08-23 00:00:00,Skyy Infusion Citrus 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059627504
+LIQUOR,,2019-07-16 00:00:00,Skky Infusion Grape 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059667500
+LIQUOR,,2019-12-24 00:00:00,Skyy Infusion Pineapple 750ml Vodka,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059697507
+LIQUOR,,2019-04-20 00:00:00,Wild Turkey Bourbon 750ml Whiskey,26.15,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059847506
+LIQUOR,,2019-04-19 00:00:00,Wild Turkey 101pf Bourbon 375ml,16.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059893756
+LIQUOR,,2019-04-18 00:00:00,Wild Turkey Rye 750ml Whiskey,30.51,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059977500
 LIQUOR,,2020-02-21 00:00:00,Frangelico 50ml Frangelico,4.27,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,721059980500
-LIQUOR,,2020-05-08 00:00:00,Goslings Black Seal 1.75L Rum,34.87,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721094199035
-LIQUOR,,2020-05-03 00:00:00,Goslings Black Seal 750ml Rum,22.88,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721094199059
+LIQUOR,,2019-05-28 00:00:00,Frangelico Liqueur 750ml Import,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721059987509
 LIQUOR,,2020-01-08 00:00:00,Goslings 151 Black Seal 1L Rum,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721094199141
-LIQUOR,,2020-05-02 00:00:00,Gosling Gold 750ml Rum,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721094199455
-MISC,,2020-05-16 00:00:00,Goslings Ginger Beer 6pk 12oz Domestic,7.48,"{""department"": ""MISC"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,721094199707
 MISC,,2020-02-21 00:00:00,Goslings Deit Ginger Beer 6pk 12oz Domestic,7.48,"{""department"": ""MISC"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,721094199752
-WINE,,2020-05-15 00:00:00,Chateau Bonnet Rose 750ml Domestic,16.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721298260913
-LIQUOR,,2020-05-16 00:00:00,Patron Silver Tequila 750ml,54.49,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721733000029
-LIQUOR,,2020-05-02 00:00:00,Patron Silver 50Ml Tequila,6.41,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,721733000234
-LIQUOR,,2020-05-16 00:00:00,Patron silver 375ml Patron,28.33,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,721733000944
+LIQUOR,,2019-04-20 00:00:00,Patron XO Cafe 750ml Liqueur,26.15,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721733000036
+LIQUOR,,2019-11-23 00:00:00,Patron Citronge Orange 750ml Liqueur,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,721733000043
+BEER,,2019-08-03 00:00:00,Lagunitas IPA 6pk 12oz Craft,11.22,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,723830000094
+BEER,,2019-09-07 00:00:00,Lagunitas Brown Sugar 6pk 12oz Craft,13.07,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,723830000148
+BEER,,2019-07-09 00:00:00,Lagunitas Maximus IPA 6pk 12oz Craft,13.07,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,723830000179
+BEER,,2019-09-07 00:00:00,Lagunitas IPA 12pk 12oz Craft,18.08,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,723830100091
 BEER,,2020-01-15 00:00:00,Willettized Lagunitas,14.38,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,723830400467
-LIQUOR,,2020-05-15 00:00:00,Gekkeikan Sake 750ml Liqueur,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,728817199129
-WINE,,2020-05-12 00:00:00,Justin Cab Sav 750ml Domestic,26.74,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,733952997103
+WINE,,2019-10-18 00:00:00,J Pinot Noir 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,724624001006
+BEER,,2019-12-06 00:00:00,Pumpkin Ale Wormtown,13.9,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,735810691086
+LIQUOR,,2019-07-26 00:00:00,Molly's Irish Creme 750ml Liqueur,13.9,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,736040000433
+LIQUOR,,2019-06-14 00:00:00,Molly's Irish Creme Liqueur 1.5L Import,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,736040000471
+LIQUOR,,2019-08-09 00:00:00,Molly Liqueur 50ml,1.64,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,736040000495
+LIQUOR,,2019-07-30 00:00:00,Pyccknn Ctahdapt Russian 1.75L Vodka,34.87,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,736040018742
+LIQUOR,,2019-10-12 00:00:00,Pallini Limoncello 750ml Liqueur,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,736040501381
+LIQUOR,,2019-09-16 00:00:00,Pisco Porton 750ml Tequila,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,736040519805
 LIQUOR,,2020-04-03 00:00:00,Banhez Mezcal Mezcal,32.09,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,736040537113
+BEER,,2019-11-06 00:00:00,Goose Island Madame Rose Single 22oz Craft,18.52,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,736920112706
+BEER,,2019-05-01 00:00:00,Goose Island Bourbon Country Single 16oz Craft,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,736920116148
+BEER,,2019-05-22 00:00:00,Goose IPA 15PK CANS Domestic IPA,17.43,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,736920116513
+WINE,,2019-06-15 00:00:00,Coppola Pinot Noir 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,739958014509
+WINE,,2019-06-15 00:00:00,Francis Coppola Sav Blanc 750ml Domestic,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,739958034606
+WINE,,2019-05-03 00:00:00,Coppola Malbec 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,739958064702
+WINE,,2019-07-15 00:00:00,Coppola Cab Sav 750ml Import,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,739958064801
+WINE,,2019-04-19 00:00:00,Sofia Brut Rose Sparkling 750ml Import,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,739958163283
+WINE,,2019-07-17 00:00:00,Coppola Claret Cab Sav 750ml Import,18.52,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,739958974001
+WINE,,2019-06-22 00:00:00,Coppola Merlot 750ml Domestic,17.11,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,739958974100
+WINE,,2019-07-02 00:00:00,Siena Red Wine 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,742651184295
+BEER,,2019-04-16 00:00:00,Wachusett Blueberry 6pk 12oz Craft,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,743041020094
+BEER,,2019-05-10 00:00:00,Nauti Cranberry 6pk 12oz Seltzer,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,743041122019
+BEER,,2019-04-24 00:00:00,Nauti Raspberry 6pk 12oz Seltzer,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,743041122033
+BEER,,2019-05-04 00:00:00,Nauti Blueberry Lemonade 6pk 12oz Seltzer,10.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,743041122040
+WINE,,2019-08-01 00:00:00,Robertson Cab Sav 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,746925000915
 BEER,,2020-03-14 00:00:00,Kentucky Bourbon Barrel 4pk 12oz Craft,13.9,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,747301003278
-BEER,,2020-05-15 00:00:00,NSB Craigerator 4 x 16oz,17.43,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,low_margin,752830253810
-BEER,,2020-05-16 00:00:00,NSB Briar Weisse 4 x 16oz,19.61,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,low_margin,752830259713
-BEER,,2020-05-15 00:00:00,NSB One Hop This Time: Vic 4 x 16oz,14.38,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,low_margin,752830262010
+WINE,,2019-08-21 00:00:00,Gobelsburg Rose,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,747736565396
+BEER,,2019-04-20 00:00:00,Hefe Weiss 6pk Weihenstephaner,14.16,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,752245141504
+BEER,,2019-09-25 00:00:00,sewll Night shift,19.61,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,752830254619
+BEER,,2019-10-03 00:00:00,Night Shift Nite Lite 12pk 12oz Craft,17.43,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,752830258914
+BEER,,2019-08-28 00:00:00,Night Shift Nite Lite 6pk 12oz Craft,8.55,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,752830260214
+BEER,,2019-06-21 00:00:00,Fat Tire 6pk 12oz Craft,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,754527000226
+BEER,,2019-04-17 00:00:00,Voodoo Ranger IPA 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,754527000660
+BEER,,2019-07-28 00:00:00,Fat Tire 12pk Cans Fat Tire,19.61,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,754527001612
+BEER,,2019-08-07 00:00:00,Fat Tire Belgian White 6pk 12oz Craft,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,754527007164
+BEER,,2019-02-27 00:00:00,Voodoo Ranger Liquid IPA 6pk 12oz Craft,13.58,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,high_margin,754527009946
+BEER,,2019-07-21 00:00:00,Shed Moauntain IPA 6pk 12oz Craft,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,756435906027
 BEER,,2020-04-26 00:00:00,CBD Cider Otto,5.44,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,758475642569
+WINE,,2019-11-17 00:00:00,Pastene Marsala 750ml Domestic,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,761666000581
+WINE,,2019-10-13 00:00:00,Confidencial Reserva Red 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,763955684007
 WINE,,2020-02-07 00:00:00,Casal Garcia White 750ml Import,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,764793208301
 LIQUOR,,2020-04-01 00:00:00,Kerrygold Irish Creme Liqueur 750ml Import,27.24,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,767707002194
+WINE,,2019-04-18 00:00:00,Sonoma Cutrer Chard 750ml Domestic,23.53,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,769611454441
 WINE,,2020-01-04 00:00:00,Sonoma Cutrer PINOT NOIR,32.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,769611500384
 WINE,,2020-04-07 00:00:00,Malbec 750ml Dabra,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,7790314010200
+WINE,,2019-11-25 00:00:00,La Escondida Reserve Malbec 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,7791540126222
 WINE,,2020-04-17 00:00:00,Picabuey Malbec 750ml Import,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,7798301230471
-BEER,,2020-05-19 00:00:00,Stella Artois 24oz,3.27,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,786150000571
+BEER,,2019-05-18 00:00:00,Peak Sweet Tarts 6pk 12oz Craft,12.74,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,780369176171
+BEER,,2019-09-28 00:00:00,Smashed Ship,12.83,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,780369180437
+BEER,,2019-04-21 00:00:00,Stella Artois 6pk 12oz Import,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,786150000014
+BEER,,2019-12-10 00:00:00,Hoegaarden 6pk 12oz Import,11.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,786150001462
+WINE,,2019-04-17 00:00:00,Jillian Louise Rose 750ml Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,789185948627
+WINE,,2019-06-19 00:00:00,E Guigal Cotes du Rhone 750ml Import,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,790559501003
 LIQUOR,,2020-04-15 00:00:00,Whistlepig rye 10yr,81.74,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,793573797940
-BEER,,2020-05-08 00:00:00,Maine Beer Mo Single 16oz Craft,7.58,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,794504868821
-BEER,,2020-05-14 00:00:00,Maine Beer Another One Single 16oz Craft,7.58,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,794504869125
 BEER,,2020-01-04 00:00:00,Maine Beer a tiny beautiful something Single 16oz Craft,7.58,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,794504869729
-BEER,,2020-05-16 00:00:00,Kona Longboard 6pk 12oz Craft,11.76,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,796030114946
-BEER,,2020-05-05 00:00:00,Kona Big Wave 6pk 12oz Craft,11.76,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,796030114960
-LIQUOR,,2020-05-02 00:00:00,Glendalough 750ml Gin,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,797776188482
+BEER,,2019-04-16 00:00:00,Smuty Nose Mysterious Haze 4pk 16oz Craft,14.11,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,795563720112
 LIQUOR,,2020-04-02 00:00:00,Glendalough Irish Whiskey 750ml,59.94,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,797776782338
 BEER,,2020-01-10 00:00:00,Magic Hat #9 6pk 12oz Craft,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,798373126020
-LIQUOR,,2020-05-19 00:00:00,Glendalough Double Barrel Whiskey 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,799439682177
-WINE,,2020-05-02 00:00:00,Barbera Dalba Mauro Molino,16.04,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,8032589702176
+WINE,,2019-10-18 00:00:00,ERA Pinot Grigio 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,8004006003289
+WINE,,2019-05-06 00:00:00,Era Montepulciano d'Abruzzo 750ml Import,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,8004006003302
+WINE,,2019-06-28 00:00:00,Lupaia Toscana 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,8016179410146
 WINE,,2020-04-25 00:00:00,castello di Radda Chianti Classico,16.04,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,8033540100314
 WINE,,2020-04-23 00:00:00,Castello di Radda Chianti 750ml Import,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,8033540200915
-WINE,,2020-05-09 00:00:00,Iron Side Cab Cab,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,810879020135
+WINE,,2019-04-16 00:00:00,90+ Cab Sav 1.5L Import,18.18,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,810879020227
 WINE,,2020-03-26 00:00:00,Mija Sangria Red Sparkling 750ml Domestic,9.62,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,810879020388
+WINE,,2019-11-15 00:00:00,Iron Side Red 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,810879020418
+WINE,,2019-04-16 00:00:00,90+ Valle de Maipo Cab Sav 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,810879020425
+WINE,,2019-07-09 00:00:00,Iron Side Cab Sav 750ml Domestic,26.74,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,810879020678
 WINE,,2020-03-16 00:00:00,Iron Side Pinot Noir 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,810879020876
 LIQUOR,,2020-02-13 00:00:00,Steel Dust 50ml Vodka,1.07,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,810879021385
-LIQUOR,,2020-05-02 00:00:00,silver 375ml 1800 Silver,18.52,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538010122
-LIQUOR,,2020-05-15 00:00:00,Jose Cuervo Gold 750ml Tequila,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,811538010832
+LIQUOR,,2019-02-16 00:00:00,1800 Silver 750ml Tequila,30.51,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538010139
+LIQUOR,,2019-07-04 00:00:00,Hangar 1 750ml Vodka,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,811538010597
 LIQUOR,,2020-01-24 00:00:00,Jose Cuervo Silver 750ml Tequila,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,811538010856
-LIQUOR,,2020-04-30 00:00:00,Silver 375ml Jose Cuervo,13.08,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538010870
+LIQUOR,,2019-12-31 00:00:00,Gold 375ml Jose Cuervo,13.08,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538010887
 LIQUOR,,2020-04-25 00:00:00,Gold 200ml Jose Cuervo,7.63,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538010924
-LIQUOR,,2020-05-09 00:00:00,Silver 200ml jose Cuervo,7.63,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538010931
 LIQUOR,,2020-03-11 00:00:00,Jose Cuervo Gold 50ml Tequila,2.14,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,811538010948
-LIQUOR,,2020-05-05 00:00:00,Jose Cuervo Silver 50ml Tequila,2.18,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538010955
-LIQUOR,,2020-05-05 00:00:00,Jose Cuervo Golden Margarita 750ml Liqueur,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538010962
-LIQUOR,,2020-05-16 00:00:00,Classic Marg 1.75ml Jose Cuervo,19.61,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538010993
 LIQUOR,,2020-04-02 00:00:00,Jose Cuervo Strawberry Marg 750ml Mixer,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,811538011143
-LIQUOR,,2020-05-05 00:00:00,Jose Cuervo Classic Marg 1L Mixer,5.34,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,811538011211
-LIQUOR,,2020-05-09 00:00:00,Jose Cuervo Magarita Mini 4pk 750ml Liqueur,10.89,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,811538011556
-LIQUOR,,2020-05-14 00:00:00,1800 Margarita 1800,23.97,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,811538019156
-LIQUOR,,2020-05-13 00:00:00,Proper Twelve Whiskey 750ml,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,811538019569
-LIQUOR,,2020-05-07 00:00:00,Irish Whiskey 375ml Proper Twelve,20.32,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,811538019682
-LIQUOR,,2020-05-01 00:00:00,15yr Highland Park,108.99,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,812066020294
+LIQUOR,,2019-05-05 00:00:00,Jose Cuervo Margaritas 1.75L Liqueur,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,811538011792
+WINE,,2019-08-18 00:00:00,Restina Greek 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,811611000279
+LIQUOR,,2019-04-16 00:00:00,Stolichnaya 750ml Vodka,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,811751020007
+LIQUOR,,2019-04-19 00:00:00,Macallan 12 Years 750ml Scotch,79.56,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,812066020553
 LIQUOR,,2020-02-11 00:00:00,Macallan 10 Years 750ml Scotch,51.22,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,812066020683
 LIQUOR,,2020-02-26 00:00:00,Macallan 15 Years 750ml Scotch,108.99,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,812066020690
-LIQUOR,,2020-05-01 00:00:00,Macallan 12 Years Double 750ml Scotch,65.4,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,812066021598
 LIQUOR,,2020-04-08 00:00:00,Calumet Bourbon,52.31,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,812459012004
+WINE,,2019-10-01 00:00:00,Rascal Pinot Noir 750ml Domestic,14.97,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,812572008427
 LIQUOR,,2020-04-23 00:00:00,Teeling 750ml Irish Whiskey,38.14,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,813219020048
 LIQUOR,,2020-02-15 00:00:00,Gozio Amaretto Liqueur 50ml,2.18,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,814794010455
+WINE,,2019-09-20 00:00:00,Castillo De Monseran Garnacha 750ml Import,7.48,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,815087010008
+BEER,,2019-12-27 00:00:00,Nitro Pumking Southern Tier,15.47,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,816014021135
 WINE,,2020-04-03 00:00:00,Pinot Noir Joel Gott,18.52,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,817625010143
+BEER,,2019-08-31 00:00:00,Pale Ale Elysian,12.83,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,817904000537
+BEER,,2019-06-12 00:00:00,Elysian Space Dust 6pk 12oz Craft,15.25,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,817904000834
 BEER,,2020-03-13 00:00:00,Hazy IPA Elysian,13.07,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,817904007949
 BEER,,2020-04-08 00:00:00,Road 2 Run Two Roads,13.07,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,819578010478
+TOBACCO,,2019-10-09 00:00:00,Juul Mint Pod,17.11,"{""department"": ""TOBACCO"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,819913011405
 TOBACCO,,2020-03-30 00:00:00,Ph Card Virg Jl,21.39,"{""department"": ""TOBACCO"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,819913011429
-Soda,,2020-05-19 00:00:00,v o j l,21.39,"{""department"": ""Soda"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,819913012594
-WINE,,2020-05-14 00:00:00,Sauv Blanc The Crossings,13.9,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,831869000012
-WINE,,2020-05-19 00:00:00,Rose all Day 750ml Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,833202002509
+BEER,,2019-07-17 00:00:00,Dale's Pale Ale 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,819942000036
+WINE,,2019-04-20 00:00:00,Leese Fitch Cab Sav 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,833302002409
+WINE,,2019-04-18 00:00:00,Leese Fitch Pinot Noir 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,833302002430
 WINE,,2020-02-02 00:00:00,Gunsight Rock Cab Sav 750ml Domestic,16.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,833302005158
+LIQUOR,,2019-02-27 00:00:00,Absolut Vodka 50ml Vodka,2.13,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,835229000001
+LIQUOR,,2019-03-23 00:00:00,Absolute Vodka 750ml Domestic Vodka,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,835229000308
 LIQUOR,,2020-03-06 00:00:00,Absolut Strawberry Juice vodka Absolut,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,835229010611
 LIQUOR,,2020-02-05 00:00:00,Absolut Apple Juice vodka Absolut,21.79,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,835229010628
 WINE,,2020-02-29 00:00:00,Cielo Pinot Grigio 750ml Import,8.55,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,839543001379
-WINE,,2020-05-04 00:00:00,Cielo Pinot Noir 1.5L Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,839543001881
-WINE,,2020-04-30 00:00:00,Harken Chard 750ml Domestic,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,847159001812
+WINE,,2019-08-29 00:00:00,Passia Rosso Red Wine 750ml Import,13.9,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,839543002420
+WINE,,2019-04-16 00:00:00,Yellow Tail Pink Moscato 1.5L Import,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,839743001520
 WINE,,2020-04-18 00:00:00,Pinot Noir Harken,13.9,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,847159002079
-LIQUOR,,2020-04-28 00:00:00,Piggy Back 6yr Whistlepig,57.76,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,850001901116
-BEER,,2020-05-17 00:00:00,Zero Gravity Madonna 4 x 16oz,15.47,"{""department"": ""BEER"", ""vendor"": ""Atlantic"", ""description"": ""NULL""}",NULL,low_margin,850113006235
-WINE,,2020-05-11 00:00:00,Mark West Pinot Noir 750ml Domestic,11.98,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,851718000048
-WINE,,2020-05-01 00:00:00,Lifevine Cab Sauv Lifevine,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,852411007563
-WINE,,2020-05-10 00:00:00,Chard Life Vine,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,852411007570
+WINE,,2019-07-17 00:00:00,Eppa Red Sang Sparkling 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,851390003009
+WINE,,2019-06-10 00:00:00,Eppa White Sang Sparkling 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,851390003023
+BEER,,2019-04-18 00:00:00,Toppling Goliath Twisted Galaxy Single 22oz Craft,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,852211003246
+BEER,,2019-04-17 00:00:00,Topping Goliath Pseudo Sue 4pk 16oz Craft,15.25,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,852211003321
+BEER,,2019-04-16 00:00:00,Toppling Goliath Pompeii 4pk 16oz Craft,13.9,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,high_margin,852211003703
 LIQUOR,,2020-04-25 00:00:00,Barr Hill Gin 750ml,42.79,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,852735003029
-WINE,,2020-05-10 00:00:00,Fit Vine Cabarnet Sav,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,853086008008
-WINE,,2020-05-18 00:00:00,Fit Vine Pinot Noir 750ml Domestic,18.18,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,853086008022
-WINE,,2020-05-07 00:00:00,Fitvine Chard 750ml Domestic,16.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,853086008053
-WINE,,2020-05-16 00:00:00,Pinot Grigio Fit Vine,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,853086008077
+WINE,,2019-08-17 00:00:00,Mumm Napa Brut Pres Sparkling 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,852832000150
+WINE,,2019-05-02 00:00:00,Mumm Napa Brut Rose Sparkling 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,852832000174
+WINE,,2019-04-21 00:00:00,Mumm Napa Cuvee M Sparkling 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,852832000310
+WINE,,2019-06-08 00:00:00,Mumm Napa Blanc de B Sparkling 750ml Domestic,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,852832106241
 WINE,,2020-04-13 00:00:00,Fitvine Rose Fitvine,17.43,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,853086008091
-BEER,,2020-05-15 00:00:00,Mast Landing DDH Tell Tale 4 x 16oz,16.34,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,low_margin,853239007018
+BEER,,2019-04-19 00:00:00,Switchback Ale 12 x 12oz Glass,11.98,"{""department"": ""BEER"", ""vendor"": ""9787772213"", ""description"": ""NULL""}",NULL,low_margin,853205004058
+BEER,,2019-12-31 00:00:00,Saccarappa Mast Landing,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,853239007032
 BEER,,2020-03-15 00:00:00,Dash 4pk Mast Landing,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,853239007049
+BEER,,2019-08-04 00:00:00,Little Choppy Mast Landing,15.03,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,853239007100
+BEER,,2019-10-03 00:00:00,Neon Sails Mast Landing,16.12,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,853239007247
 BEER,,2020-01-11 00:00:00,Lights 4pk 16oz Mast Landing,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,853239007452
-BEER,,2020-05-16 00:00:00,Mast Landing Sports & Leisure 4 x 16oz,18.52,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,low_margin,853239007780
+BEER,,2019-10-17 00:00:00,Pumking Southern Tier,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,853759000421
+BEER,,2019-04-19 00:00:00,Bon&Vin Variety 12pk 12oz Seltzer,16.78,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,853897002271
 BEER,,2020-02-28 00:00:00,2x4 Dipa Melvin,17.43,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,853901006226
+BEER,,2019-10-25 00:00:00,Hazy Rotation North ale,14.11,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,853918008107
+LIQUOR,,2019-07-30 00:00:00,Cleveland 750ml Whiskey,32.69,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,853971004030
+LIQUOR,,2019-04-16 00:00:00,Tres Agaves Reposado Tequila 750ml,30.51,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,854125003015
+BEER,,2019-09-20 00:00:00,Newburyport Plum Island 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,854378004005
+BEER,,2019-10-09 00:00:00,Newburyport Green Head 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,854378004012
+BEER,,2019-10-11 00:00:00,Newburyport Pale Ale 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,854378004029
+BEER,,2019-05-30 00:00:00,Newburyport Melt Away 6pk 12oz Craft,11.65,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,854378004463
 LIQUOR,,2020-01-18 00:00:00,Prairie Bourbon High West,42.79,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,854396005220
 LIQUOR,,2020-04-09 00:00:00,High West Bourbon 375ml,21.39,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,854396005251
+BEER,,2019-10-01 00:00:00,River Walk IPA 6pk 12oz Craft,12.83,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,854924003452
 BEER,,2020-02-20 00:00:00,Riverwalk IPA IPA 4pk,13.07,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,854924003773
-BEER,,2020-05-15 00:00:00,Stormalong Mass Appeal 4 x 16oz,11.98,"{""department"": ""BEER"", ""vendor"": ""Atlantic"", ""description"": ""NULL""}",NULL,low_margin,855067006256
-BEER,,2020-05-18 00:00:00,Stormalong Red Skies 4 x 16oz,12.83,"{""department"": ""BEER"", ""vendor"": ""Atlantic"", ""description"": ""NULL""}",NULL,high_margin,855067006270
-WINE,,2020-05-15 00:00:00,Mieomi Pinot Noir,23.97,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,855165005076
-BEER,,2020-05-08 00:00:00,Double Thunder Bent Water,17.43,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,855775006531
+BEER,,2019-11-23 00:00:00,NE Double IPA NE Double IPA,17.11,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,855775006623
 BEER,,2020-02-05 00:00:00,Goat Bent Water,13.29,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,855775006630
-BEER,,2020-05-03 00:00:00,Czarface Bent Water,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,855775006647
-LIQUOR,,2020-05-15 00:00:00,Ole Smoky 50ml Moonshine,3.21,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,"duplicate_sku,high_margin",856011004151
-LIQUOR,,2020-05-15 00:00:00,Ole Smoky 50ml Moonshine,3.21,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,"duplicate_sku,high_margin",856011004151
-BEER,,2020-05-11 00:00:00,Lord Hobo NE Sampler 12 x 12oz,21.35,"{""department"": ""BEER"", ""vendor"": ""Atlantic"", ""description"": ""NULL""}",NULL,low_margin,856544007803
-BEER,,2020-05-14 00:00:00,Lord Hobo Hobo Life 12 x 12oz,21.35,"{""department"": ""BEER"", ""vendor"": ""Atlantic"", ""description"": ""NULL""}",NULL,low_margin,856544007834
-BEER,,2020-05-17 00:00:00,Lord Hobo 617 Title Town 12 x 12oz C,20.7,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,856544007957
-LIQUOR,,2020-05-16 00:00:00,Anejo Casamigos,56.7,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,856724006015
-WINE,,2020-05-11 00:00:00,Luna Di Luna 1.5ml Pinot Grigio,13.9,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,857660004622
+BEER,,2019-10-06 00:00:00,Prestige 6pk Import Beer,11.98,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,855956000136
+LIQUOR,,2019-07-14 00:00:00,Deep Eddy Sweet Tea 750ml Vodka,19.61,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,856065002004
+BEER,,2019-06-15 00:00:00,Museum Triple IPA Lord Hobo,20.7,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,856544007124
+BEER,,2019-06-01 00:00:00,Lord Hobo Hobo Lift 6pk 12oz Craft,11.76,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,856544007230
+BEER,,2019-07-25 00:00:00,Lord Hobo Glorious 4pk 16oz Craft,15.25,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,856544007407
+BEER,,2019-08-10 00:00:00,Lord Hobo Boom Sauce 4pk 16oz Craft,16.56,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,856544007421
+BEER,,2019-04-26 00:00:00,Lord Hobo Meat & Potatoes 4pk 16oz Craft,12.83,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,856544007490
+BEER,,2019-04-16 00:00:00,Lord Hobo Flight 6pk 12oz Craft,16.67,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,856544007667
+WINE,,2019-06-14 00:00:00,Charles & Charles Riesling 750ml Domestic,11.76,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,856622001273
+WINE,,2019-06-23 00:00:00,Senor Sangria Red Sparkling 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,857674005004
+WINE,,2019-08-09 00:00:00,Senor Sangria Red 1.5L Domestic,14.97,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,857674005011
+WINE,,2019-06-08 00:00:00,Senor Sangria White Sparkling 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,857674005028
 WINE,,2020-03-17 00:00:00,Joseph Carr Chard 750ml Domestic,17.11,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,857744001219
-WINE,,2020-05-16 00:00:00,Josh Cab Sav 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,857744001318
-WINE,,2020-05-19 00:00:00,Josh Cellar Chard 750ml Domestic,13.07,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,857744001325
-WINE,,2020-05-09 00:00:00,Josh Merlot 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,857744011157
 WINE,,2020-04-21 00:00:00,Joseph Carr Cab Sav 750ml Domestic,18.52,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,857744099001
+BEER,,2019-09-13 00:00:00,Notch Left of the Dial IPA 12p 12oz Craft,17.43,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,858163004058
+BEER,,2019-06-24 00:00:00,Downeast 4pk 12oz Cider,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,"duplicate_sku,low_margin",858612003052
+BEER,,2019-06-24 00:00:00,Downeast 4pk 12oz Cider,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,"duplicate_sku,low_margin",858612003052
+BEER,,2019-05-16 00:00:00,Downeast Winter 4pk 12oz Cider,10.89,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,858612003151
 BEER,,2020-02-20 00:00:00,Blueberry Down East,14.16,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,858612003502
-WINE,,2020-05-15 00:00:00,Poggio Chianti Argentale,11.76,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,858749003093
-BEER,,2020-05-16 00:00:00,Citizen Cider Unified 4 x 16oz,13.07,"{""department"": ""BEER"", ""vendor"": ""Atlantic"", ""description"": ""NULL""}",NULL,low_margin,859199003077
+WINE,,2019-07-25 00:00:00,Sean Minor Cab,14.97,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,859139001927
+WINE,,2019-07-23 00:00:00,Sean Minor Pinot,14.16,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,859139001934
+WINE,,2019-12-02 00:00:00,Pampelonne French 75 4pk Sparkling 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,859597004140
+WINE,,2019-11-05 00:00:00,Pampelonne Harvest Pear 4pk Sparkling 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,859597004157
+WINE,,2019-06-02 00:00:00,Pampelonne Black Cherry 4pk Sparkling 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,859597004270
+WINE,,2019-08-20 00:00:00,Pampelonne Negroni Sbag 4pk Sparkling 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,859597004294
+WINE,,2019-07-21 00:00:00,Pampelonne Watermelon 4pk Sparkling 750ml Domestic,12.83,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,859597004317
 BEER,,2020-03-29 00:00:00,1 North haze Ipa 1 North,15.25,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,859660007061
-BEER,,2020-05-11 00:00:00,Destihl Synchopathic 6 x 12oz,13.9,"{""department"": ""BEER"", ""vendor"": ""6172944233"", ""description"": ""NULL""}",NULL,high_margin,859708002171
 BEER,,2020-03-22 00:00:00,Extended IPA Destihl,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,859708002553
 Soda,,2020-03-03 00:00:00,Mount Water Liquid Death,1.6,"{""department"": ""Soda"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,860000023900
-LIQUOR,,2020-05-14 00:00:00,Skrewball Skrewball,32.09,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,860265002405
-LIQUOR,,2020-05-06 00:00:00,Skrewball 50ml Peanut Butter whiskey,3.2,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,860265002429
+BEER,,2019-11-27 00:00:00,Pear Cinnamon Willies,12.2,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,860000897525
 BEER,,2020-02-09 00:00:00,Juice Bomb Sloop Brewing,14.16,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,860367000729
 BEER,,2020-04-25 00:00:00,Mango Willies,11.76,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,860438001693
 BEER,,2020-01-30 00:00:00,Kolsch Devil's Purse,13.9,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,862816000250
+BEER,,2019-07-17 00:00:00,Stonehorse Citra Devil's Purse,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",1.00000000,low_margin,862816000298
 BEER,,2020-01-31 00:00:00,Moose Juice North Ale,13.07,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,866764000171
-LIQUOR,,2020-05-16 00:00:00,Fisher Island lemonade,17.43,"{""department"": ""LIQUOR"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,867636000015
 BEER,,2020-02-27 00:00:00,Imperial IPA Laser Cat,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,868956000402
 BEER,,2020-03-21 00:00:00,Luminary MedUsa Brewing,16.34,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,868956000457
-WINE,,2020-05-15 00:00:00,Babe Rose Babe,13.07,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,869037000380
+WINE,,2019-04-19 00:00:00,Oyster Bay Sav Blanc 750ml Import,11.98,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,870661008024
+WINE,,2019-09-18 00:00:00,Chateau Blaignan Medoc 750ml Import,21.39,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,873964002041
 WINE,,2020-03-12 00:00:00,Gabriele Vino Sweet Red 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,876641900258
-WINE,,2020-05-08 00:00:00,Napa Cab Oberon,21.79,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,877397000407
 LIQUOR,,2020-02-22 00:00:00,Rum Chata Liqueur 750ml Import,25.06,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,890355001025
-BEER,,2020-04-27 00:00:00,Amber 4pk Cape Ann,10.89,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,892480001116
-BEER,,2020-05-06 00:00:00,Easy IPA Cape Ann Brew,10.89,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,892480100017
-WINE,,2020-05-15 00:00:00,90+ Pinot Noir Monterey 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,894655001099
-WINE,,2020-05-10 00:00:00,sparkling Rose 90+,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,894655001679
-WINE,,2020-05-11 00:00:00,Cab Bourbon Barrel Layer Cake,16.34,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,896599002101
+BEER,,2019-07-06 00:00:00,Monaco Moscow Mule,11.98,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,891278002717
+BEER,,2019-07-14 00:00:00,Monaco Kentucky Mule,11.98,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,891278002748
+BEER,,2019-12-27 00:00:00,Surley Surley,18.74,"{""department"": ""BEER"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,893354001201
+BEER,,2019-06-14 00:00:00,Crispin The Saint Single 22oz Cider,6.41,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,894137002163
+WINE,,2019-04-16 00:00:00,90+ Sav Blanc 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,894655001037
+WINE,,2019-04-15 00:00:00,90+ Cotes du Rhone 750ml Import,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,894655001488
+WINE,,2019-06-22 00:00:00,Sav Blanc Cali 90+,10.69,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,894655001822
+WINE,,2019-08-02 00:00:00,Layer Cake Cab Sav 750ml Domestic,16.04,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,896599002088
+WINE,,2019-05-30 00:00:00,Layer Cake Chard 750ml Domestic,16.34,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,896599002095
+WINE,,2019-08-07 00:00:00,Layer Cake Pinot Noir Dom wine 750ml,16.04,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,896599002132
+LIQUOR,,2019-09-05 00:00:00,Nolet's Silver 750ml Gin,49.04,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,897845002005
+BEER,,2019-08-10 00:00:00,Cigar City Jai Alai 6pk 12oz Craft,11.98,"{""department"": ""BEER"", ""vendor"": ""NULL"", ""description"": ""NULL""}",1.00000000,low_margin,897853002936
 WINE,,2020-02-19 00:00:00,CrossBarn Pinot Noir,32.09,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,897941000271
-Soda,,2020-05-19 00:00:00,4pk Tonic Water Fever Tree,7.48,"{""department"": ""Soda"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,898195001014
-Soda,,2020-05-08 00:00:00,Elder Flower Tonic Water Fever Tree,8.01,"{""department"": ""Soda"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,high_margin,898195001656
+LIQUOR,,2019-11-27 00:00:00,Powell & Mahoney Bloody Mary 750ml Mixer,5.44,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,898406001314
+LIQUOR,,2019-06-23 00:00:00,Powell & Mahoney Margarita 750ml Mixer,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,898406001345
 LIQUOR,,2020-04-10 00:00:00,Powell & Mahoney Peach Bellini 750ml Mixer,7.62,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,898406001437
+WINE,,2019-08-02 00:00:00,Line 39 Sav Blanc 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,898756001040
+WINE,,2019-08-08 00:00:00,Line 39 Cab Sav 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,898756001057
+WINE,,2019-08-08 00:00:00,Line 39 Pinot Noir 750ml Domestic,10.69,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,898756001477
 WINE,,2020-04-03 00:00:00,Exitus Exitus,18.52,"{""department"": ""WINE"", ""vendor"": ""NONE"", ""description"": ""NULL""}",NULL,low_margin,898756001606
 WINE,,2020-03-26 00:00:00,2 Copas 750ml Import,9.62,"{""department"": ""WINE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,899939002472
-LIQUOR,biz_id_3A09D545-A2F9-4325-A048-AD747EDDE0A0,2020-05-19 00:00:00,ICE 5lb,1.87,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,
-LIQUOR,biz_id_A48A4A0C-6D43-40DF-AB1F-07BEA72ABDEC,2020-05-19 00:00:00,ICE 10lb,2.94,"{""department"": ""LIQUOR"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,high_margin,
+NONE,biz_id_6F8F081C-383D-E511-A8D5-463500000031,2010-08-12 00:00:00,Manual Entry,0.0,"{""department"": ""NONE"", ""vendor"": ""NULL"", ""description"": ""NULL""}",NULL,low_margin,
